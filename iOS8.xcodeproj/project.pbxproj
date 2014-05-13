@@ -19,6 +19,15 @@
 		3F3C57E819229C1B005D9A8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C57D019229C1B005D9A8B /* UIKit.framework */; };
 		3F3C57F019229C1B005D9A8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C57EE19229C1B005D9A8B /* InfoPlist.strings */; };
 		3F3C57F219229C1B005D9A8B /* iOS8Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C57F119229C1B005D9A8B /* iOS8Tests.m */; };
+		3F3C57FD19229DCB005D9A8B /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C57FC19229DCB005D9A8B /* HomeVC.m */; };
+		3F3C58051922A062005D9A8B /* DemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58001922A062005D9A8B /* DemoCell.m */; };
+		3F3C58061922A062005D9A8B /* DemoCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58021922A062005D9A8B /* DemoCollectionLayout.m */; };
+		3F3C58071922A062005D9A8B /* DemoCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58041922A062005D9A8B /* DemoCollectionVC.m */; };
+		3F3C580E1922A391005D9A8B /* EmmaApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C580D1922A391005D9A8B /* EmmaApp.m */; };
+		3F3C58111922A6EF005D9A8B /* Emma.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58101922A6EF005D9A8B /* Emma.png */; };
+		3F3C58171922B90D005D9A8B /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58141922B90D005D9A8B /* Background.png */; };
+		3F3C58181922B90D005D9A8B /* Background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58151922B90D005D9A8B /* Background1.png */; };
+		3F3C58191922B90D005D9A8B /* Background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58161922B90D005D9A8B /* Background2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +57,22 @@
 		3F3C57ED19229C1B005D9A8B /* iOS8Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS8Tests-Info.plist"; sourceTree = "<group>"; };
 		3F3C57EF19229C1B005D9A8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F3C57F119229C1B005D9A8B /* iOS8Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS8Tests.m; sourceTree = "<group>"; };
+		3F3C57FB19229DCB005D9A8B /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeVC.h; path = Home/HomeVC.h; sourceTree = "<group>"; };
+		3F3C57FC19229DCB005D9A8B /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeVC.m; path = Home/HomeVC.m; sourceTree = "<group>"; };
+		3F3C57FF1922A062005D9A8B /* DemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = DemoCell.h; path = DemoDisplay/DemoCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		3F3C58001922A062005D9A8B /* DemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = DemoCell.m; path = DemoDisplay/DemoCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		3F3C58011922A062005D9A8B /* DemoCollectionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = DemoCollectionLayout.h; path = DemoDisplay/DemoCollectionLayout.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		3F3C58021922A062005D9A8B /* DemoCollectionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = DemoCollectionLayout.m; path = DemoDisplay/DemoCollectionLayout.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		3F3C58031922A062005D9A8B /* DemoCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = DemoCollectionVC.h; path = DemoDisplay/DemoCollectionVC.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		3F3C58041922A062005D9A8B /* DemoCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoCollectionVC.m; path = DemoDisplay/DemoCollectionVC.m; sourceTree = "<group>"; };
+		3F3C58091922A2BA005D9A8B /* DemoApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoApp.h; sourceTree = "<group>"; };
+		3F3C580C1922A391005D9A8B /* EmmaApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmmaApp.h; path = Demos/Emma/EmmaApp.h; sourceTree = "<group>"; };
+		3F3C580D1922A391005D9A8B /* EmmaApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmmaApp.m; path = Demos/Emma/EmmaApp.m; sourceTree = "<group>"; };
+		3F3C58101922A6EF005D9A8B /* Emma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Emma.png; path = Demos/Emma/Media/Emma.png; sourceTree = "<group>"; };
+		3F3C58121922ACAA005D9A8B /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		3F3C58141922B90D005D9A8B /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background.png; path = Media/Background.png; sourceTree = "<group>"; };
+		3F3C58151922B90D005D9A8B /* Background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background1.png; path = Media/Background1.png; sourceTree = "<group>"; };
+		3F3C58161922B90D005D9A8B /* Background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background2.png; path = Media/Background2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +132,17 @@
 		3F3C57D219229C1B005D9A8B /* iOS8 */ = {
 			isa = PBXGroup;
 			children = (
+				3F3C58131922B903005D9A8B /* Media */,
+				3F3C58121922ACAA005D9A8B /* Config.h */,
+				3F3C580A1922A354005D9A8B /* Demo */,
+				3F3C57FE19229ED9005D9A8B /* DemoDisplay */,
 				3F3C57DB19229C1B005D9A8B /* AppDelegate.h */,
 				3F3C57DC19229C1B005D9A8B /* AppDelegate.m */,
 				3F3C57DE19229C1B005D9A8B /* Images.xcassets */,
 				3F3C57D319229C1B005D9A8B /* Supporting Files */,
+				3F3C57FB19229DCB005D9A8B /* HomeVC.h */,
+				3F3C57FC19229DCB005D9A8B /* HomeVC.m */,
+				3F3C58091922A2BA005D9A8B /* DemoApp.h */,
 			);
 			path = iOS8;
 			sourceTree = "<group>";
@@ -142,6 +174,63 @@
 				3F3C57EE19229C1B005D9A8B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F3C57FE19229ED9005D9A8B /* DemoDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C58081922A065005D9A8B /* Header */,
+				3F3C58001922A062005D9A8B /* DemoCell.m */,
+				3F3C58021922A062005D9A8B /* DemoCollectionLayout.m */,
+				3F3C58041922A062005D9A8B /* DemoCollectionVC.m */,
+			);
+			name = DemoDisplay;
+			sourceTree = "<group>";
+		};
+		3F3C58081922A065005D9A8B /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C57FF1922A062005D9A8B /* DemoCell.h */,
+				3F3C58011922A062005D9A8B /* DemoCollectionLayout.h */,
+				3F3C58031922A062005D9A8B /* DemoCollectionVC.h */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+		3F3C580A1922A354005D9A8B /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C580B1922A372005D9A8B /* Emma */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		3F3C580B1922A372005D9A8B /* Emma */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C580F1922A6B7005D9A8B /* Media */,
+				3F3C580C1922A391005D9A8B /* EmmaApp.h */,
+				3F3C580D1922A391005D9A8B /* EmmaApp.m */,
+			);
+			name = Emma;
+			sourceTree = "<group>";
+		};
+		3F3C580F1922A6B7005D9A8B /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C58101922A6EF005D9A8B /* Emma.png */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		3F3C58131922B903005D9A8B /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C58141922B90D005D9A8B /* Background.png */,
+				3F3C58151922B90D005D9A8B /* Background1.png */,
+				3F3C58161922B90D005D9A8B /* Background2.png */,
+			);
+			name = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +308,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3C58191922B90D005D9A8B /* Background2.png in Resources */,
+				3F3C58111922A6EF005D9A8B /* Emma.png in Resources */,
+				3F3C58171922B90D005D9A8B /* Background.png in Resources */,
 				3F3C57D719229C1B005D9A8B /* InfoPlist.strings in Resources */,
 				3F3C57DF19229C1B005D9A8B /* Images.xcassets in Resources */,
+				3F3C58181922B90D005D9A8B /* Background1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +332,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3C57FD19229DCB005D9A8B /* HomeVC.m in Sources */,
+				3F3C58071922A062005D9A8B /* DemoCollectionVC.m in Sources */,
 				3F3C57DD19229C1B005D9A8B /* AppDelegate.m in Sources */,
+				3F3C58051922A062005D9A8B /* DemoCell.m in Sources */,
+				3F3C580E1922A391005D9A8B /* EmmaApp.m in Sources */,
 				3F3C57D919229C1B005D9A8B /* main.m in Sources */,
+				3F3C58061922A062005D9A8B /* DemoCollectionLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
