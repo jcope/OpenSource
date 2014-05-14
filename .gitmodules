@@ -7,3 +7,6 @@
 [submodule "iOS8/Dependencies/MWLayoutHelpers"]
 	path = iOS8/Dependencies/MWLayoutHelpers
 	url = https://github.com/lazerwalker/MWLayoutHelpers.git
+[submodule "iOS8/Demos/MWPhotoBrowser"]
+	path = iOS8/Demos/MWPhotoBrowser
+	url = https://github.com/mwaterfall/MWPhotoBrowser.git

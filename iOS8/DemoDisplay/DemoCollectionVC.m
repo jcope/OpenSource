@@ -82,7 +82,7 @@
     }
     CGFloat cellWidth = SCREEN_WIDTH-(2*xInit);
     
-    return CGSizeMake(cellWidth, 75);
+    return CGSizeMake(cellWidth, 100);
 }
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     //Grab the demo at index

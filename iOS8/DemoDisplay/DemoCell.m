@@ -21,7 +21,7 @@
     if (self) {
         // Layout the elements
         //Image
-        _cellImage = [[UIImageView alloc] initWithFrame:CGRectMake(10, 15, 50, 50)];
+        _cellImage = [[UIImageView alloc] initWithFrame:CGRectMake(10, 15, 50, 90)];
         [self addSubview:_cellImage];
         
         //Title
@@ -31,10 +31,10 @@
         [self addSubview:_cellTitle];
         
         //Detail
-        _cellDetail = [[UILabel alloc] initWithFrame:CGRectMake(75, 30, 250, 20)];
+        _cellDetail = [[UILabel alloc] initWithFrame:CGRectMake(75, 30, 200, 60)];
         [_cellDetail setFont:[UIFont fontWithName:@"HelveticaNeue-Thin" size:15]];
         [_cellDetail setTextColor:[UIColor darkGrayColor]];
-        [_cellDetail setNumberOfLines:0];
+        [_cellDetail setNumberOfLines:3];
         [self addSubview:_cellDetail];
     }
     return self;

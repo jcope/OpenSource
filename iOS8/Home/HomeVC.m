@@ -13,6 +13,7 @@
 #import "EmmaApp.h"
 #import "DemoRESideMenu.h"
 #import "DemoIntent.h"
+#import "DemoMWPhotoBrowser.h"
 
 @interface HomeVC ()
 //Data
@@ -35,6 +36,7 @@
         [_demoArray addObject:[[EmmaApp alloc] init]];
         [_demoArray addObject:[[DemoRESideMenu alloc] init]];
         [_demoArray addObject:[[DemoIntent alloc] init]];
+        [_demoArray addObject:[[DemoMWPhotoBrowser alloc]init]];
         
         //Create the Demo Collection
         _demoCollection = [[DemoCollectionVC alloc] initWithHomeVC:self

@@ -19,9 +19,11 @@
 
 - (id)init{
     if (self = [super init]) {
+        self.view.backgroundColor = [UIColor whiteColor];
         _background = [[UIImageView alloc] initWithFrame:self.view.frame];
-        [_background setImage:[UIImage imageNamed:@"Background.png"]];
-        self.view = _background;
+        [_background setImage:[UIImage imageNamed:@"Background3.png"]];
+        [_background setAlpha:0.0];
+        [self.view addSubview:_background];
         
         _imageIndex = 0;
         _activeBackground = NO;
@@ -35,6 +37,12 @@
 }
 //Fade in the background
 -(void)setupWithCompletion:(void (^)(void))completion{
+    [UIView animateWithDuration:3.0 animations:^{
+        [_background setAlpha:1.0];
+    } completion:^(BOOL finished) {
+        completion();
+    }];
+    /*
     [UIView transitionWithView:self.view
                       duration:3.0f
                        options:UIViewAnimationOptionTransitionCrossDissolve
@@ -43,7 +51,7 @@
                     } completion:^(BOOL finished) {
                         completion();
                     }];
-    
+     */
 }
 -(void)start{
     _activeBackground = YES;
