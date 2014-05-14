@@ -1,0 +1,3 @@
+[submodule "iOS8/Demos/RESideMenu"]
+	path = iOS8/Demos/RESideMenu
+	url = https://github.com/romaonthego/RESideMenu.git

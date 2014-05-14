@@ -53,7 +53,6 @@
 
 #pragma mark - Collection View Methods
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    NSLog(@"Here: %d",[_demoArray count]);
     return [_demoArray count];
 }
 // The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath:

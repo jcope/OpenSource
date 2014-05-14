@@ -11,6 +11,7 @@
 #import "BackgroundVC.h"
 //Import your Demo
 #import "EmmaApp.h"
+#import "DemoRESideMenu.h"
 
 @interface HomeVC ()
 //Data
@@ -18,8 +19,7 @@
 //View
 @property BackgroundVC* backgroundVC;
 @property DemoCollectionVC* demoCollection;
-//Declare your Demo
-@property EmmaApp* emma;
+
 @end
 
 @implementation HomeVC
@@ -32,7 +32,7 @@
         
         //Initialize and Add Demo App Here
         [_demoArray addObject:[[EmmaApp alloc] init]];
-        [_demoArray addObject:[[EmmaApp alloc] init]];
+        [_demoArray addObject:[[DemoRESideMenu alloc] init]];
         [_demoArray addObject:[[EmmaApp alloc] init]];
         [_demoArray addObject:[[EmmaApp alloc] init]];
         [_demoArray addObject:[[EmmaApp alloc] init]];
