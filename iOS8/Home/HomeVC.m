@@ -12,6 +12,7 @@
 //Import your Demo
 #import "EmmaApp.h"
 #import "DemoRESideMenu.h"
+#import "DemoIntent.h"
 
 @interface HomeVC ()
 //Data
@@ -33,11 +34,7 @@
         //Initialize and Add Demo App Here
         [_demoArray addObject:[[EmmaApp alloc] init]];
         [_demoArray addObject:[[DemoRESideMenu alloc] init]];
-        [_demoArray addObject:[[EmmaApp alloc] init]];
-        [_demoArray addObject:[[EmmaApp alloc] init]];
-        [_demoArray addObject:[[EmmaApp alloc] init]];
-        [_demoArray addObject:[[EmmaApp alloc] init]];
-        [_demoArray addObject:[[EmmaApp alloc] init]];
+        [_demoArray addObject:[[DemoIntent alloc] init]];
         
         //Create the Demo Collection
         _demoCollection = [[DemoCollectionVC alloc] initWithHomeVC:self

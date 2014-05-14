@@ -44,6 +44,136 @@
 		3F3C584C1922F800005D9A8B /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58491922F800005D9A8B /* UIViewController+RESideMenu.m */; };
 		3F3C584F1922F9AD005D9A8B /* DemoRESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C584E1922F9AD005D9A8B /* DemoRESideMenu.m */; };
 		3F3C58511922FC9B005D9A8B /* RESideMenuScreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58501922FC9B005D9A8B /* RESideMenuScreenShot.png */; };
+		3F3C58571923141B005D9A8B /* IntentScreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58561923141B005D9A8B /* IntentScreenShot.png */; };
+		3F3C586319231498005D9A8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C585919231498005D9A8B /* InfoPlist.strings */; };
+		3F3C586419231498005D9A8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C585B19231498005D9A8B /* Images.xcassets */; };
+		3F3C586519231498005D9A8B /* INKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C585D19231498005D9A8B /* INKAppDelegate.m */; };
+		3F3C586619231498005D9A8B /* INKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C585F19231498005D9A8B /* INKViewController.m */; };
+		3F3C5917192314BC005D9A8B /* 1Password.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C586C192314BC005D9A8B /* 1Password.plist */; };
+		3F3C5918192314BC005D9A8B /* 1Password.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C586D192314BC005D9A8B /* 1Password.png */; };
+		3F3C5919192314BC005D9A8B /* 1Password@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C586E192314BC005D9A8B /* 1Password@2x.png */; };
+		3F3C591A192314BC005D9A8B /* 1Password@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C586F192314BC005D9A8B /* 1Password@2x~ipad.png */; };
+		3F3C591B192314BC005D9A8B /* 1Password~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5870192314BC005D9A8B /* 1Password~ipad.png */; };
+		3F3C591C192314BC005D9A8B /* Chrome.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5872192314BC005D9A8B /* Chrome.plist */; };
+		3F3C591D192314BC005D9A8B /* Chrome.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5873192314BC005D9A8B /* Chrome.png */; };
+		3F3C591E192314BC005D9A8B /* Chrome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5874192314BC005D9A8B /* Chrome@2x.png */; };
+		3F3C591F192314BC005D9A8B /* Chrome@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5875192314BC005D9A8B /* Chrome@2x~ipad.png */; };
+		3F3C5920192314BC005D9A8B /* Chrome~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5876192314BC005D9A8B /* Chrome~ipad.png */; };
+		3F3C5921192314BC005D9A8B /* INKBrowserHandler.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5878192314BC005D9A8B /* INKBrowserHandler.plist */; };
+		3F3C5922192314BC005D9A8B /* INKFacebookHandler.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5879192314BC005D9A8B /* INKFacebookHandler.plist */; };
+		3F3C5923192314BC005D9A8B /* INKGPlusHandler.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C587A192314BC005D9A8B /* INKGPlusHandler.plist */; };
+		3F3C5924192314BC005D9A8B /* INKMailHandler.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C587B192314BC005D9A8B /* INKMailHandler.plist */; };
+		3F3C5925192314BC005D9A8B /* INKMapsHandler.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C587C192314BC005D9A8B /* INKMapsHandler.plist */; };
+		3F3C5926192314BC005D9A8B /* INKTwitterHandler.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C587D192314BC005D9A8B /* INKTwitterHandler.plist */; };
+		3F3C5927192314BC005D9A8B /* Facebook.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C587F192314BC005D9A8B /* Facebook.plist */; };
+		3F3C5928192314BC005D9A8B /* Facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5880192314BC005D9A8B /* Facebook.png */; };
+		3F3C5929192314BC005D9A8B /* Facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5881192314BC005D9A8B /* Facebook@2x.png */; };
+		3F3C592A192314BC005D9A8B /* Facebook@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5882192314BC005D9A8B /* Facebook@2x~ipad.png */; };
+		3F3C592B192314BC005D9A8B /* Facebook~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5883192314BC005D9A8B /* Facebook~ipad.png */; };
+		3F3C592C192314BC005D9A8B /* Gmail.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5885192314BC005D9A8B /* Gmail.plist */; };
+		3F3C592D192314BC005D9A8B /* Gmail.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5886192314BC005D9A8B /* Gmail.png */; };
+		3F3C592E192314BC005D9A8B /* Gmail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5887192314BC005D9A8B /* Gmail@2x.png */; };
+		3F3C592F192314BC005D9A8B /* Gmail@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5888192314BC005D9A8B /* Gmail@2x~ipad.png */; };
+		3F3C5930192314BC005D9A8B /* Gmail~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5889192314BC005D9A8B /* Gmail~ipad.png */; };
+		3F3C5931192314BC005D9A8B /* Google Maps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C588B192314BC005D9A8B /* Google Maps.plist */; };
+		3F3C5932192314BC005D9A8B /* Google Maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C588C192314BC005D9A8B /* Google Maps.png */; };
+		3F3C5933192314BC005D9A8B /* Google Maps@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C588D192314BC005D9A8B /* Google Maps@2x.png */; };
+		3F3C5934192314BC005D9A8B /* Google Maps@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C588E192314BC005D9A8B /* Google Maps@2x~ipad.png */; };
+		3F3C5935192314BC005D9A8B /* Google Maps~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C588F192314BC005D9A8B /* Google Maps~ipad.png */; };
+		3F3C5936192314BC005D9A8B /* Google+.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5891192314BC005D9A8B /* Google+.plist */; };
+		3F3C5937192314BC005D9A8B /* Google+.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5892192314BC005D9A8B /* Google+.png */; };
+		3F3C5938192314BC005D9A8B /* Google+@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5893192314BC005D9A8B /* Google+@2x.png */; };
+		3F3C5939192314BC005D9A8B /* Google+@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5894192314BC005D9A8B /* Google+@2x~ipad.png */; };
+		3F3C593A192314BC005D9A8B /* Google+~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5895192314BC005D9A8B /* Google+~ipad.png */; };
+		3F3C593B192314BC005D9A8B /* INKMailSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C5898192314BC005D9A8B /* INKMailSheet.m */; };
+		3F3C593C192314BC005D9A8B /* INKMailSheet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5899192314BC005D9A8B /* INKMailSheet.plist */; };
+		3F3C593D192314BC005D9A8B /* INKMailSheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C589A192314BC005D9A8B /* INKMailSheet.png */; };
+		3F3C593E192314BC005D9A8B /* INKMailSheet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C589B192314BC005D9A8B /* INKMailSheet@2x.png */; };
+		3F3C593F192314BC005D9A8B /* INKMailSheet@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C589C192314BC005D9A8B /* INKMailSheet@2x~ipad.png */; };
+		3F3C5940192314BC005D9A8B /* INKMailSheet~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C589D192314BC005D9A8B /* INKMailSheet~ipad.png */; };
+		3F3C5941192314BC005D9A8B /* INKTweetSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58A0192314BC005D9A8B /* INKTweetSheet.m */; };
+		3F3C5942192314BC005D9A8B /* INKTweetSheet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58A1192314BC005D9A8B /* INKTweetSheet.plist */; };
+		3F3C5943192314BC005D9A8B /* INKTweetSheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58A2192314BC005D9A8B /* INKTweetSheet.png */; };
+		3F3C5944192314BC005D9A8B /* INKTweetSheet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58A3192314BC005D9A8B /* INKTweetSheet@2x.png */; };
+		3F3C5945192314BC005D9A8B /* INKTweetSheet@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58A4192314BC005D9A8B /* INKTweetSheet@2x~ipad.png */; };
+		3F3C5946192314BC005D9A8B /* INKTweetSheet~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58A5192314BC005D9A8B /* INKTweetSheet~ipad.png */; };
+		3F3C5947192314BC005D9A8B /* INKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58A8192314BC005D9A8B /* INKWebView.m */; };
+		3F3C5948192314BC005D9A8B /* INKWebView.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58A9192314BC005D9A8B /* INKWebView.plist */; };
+		3F3C5949192314BC005D9A8B /* INKWebView.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58AA192314BC005D9A8B /* INKWebView.png */; };
+		3F3C594A192314BC005D9A8B /* INKWebView@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58AB192314BC005D9A8B /* INKWebView@2x.png */; };
+		3F3C594B192314BC005D9A8B /* INKWebView@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58AC192314BC005D9A8B /* INKWebView@2x~ipad.png */; };
+		3F3C594C192314BC005D9A8B /* INKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58AE192314BC005D9A8B /* INKWebViewController.m */; };
+		3F3C594D192314BC005D9A8B /* INKWebView~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58AF192314BC005D9A8B /* INKWebView~ipad.png */; };
+		3F3C594E192314BC005D9A8B /* IntentKitBundle-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58B0192314BC005D9A8B /* IntentKitBundle-Info.plist */; };
+		3F3C594F192314BC005D9A8B /* Mail.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58B2192314BC005D9A8B /* Mail.plist */; };
+		3F3C5950192314BC005D9A8B /* Mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58B3192314BC005D9A8B /* Mail.png */; };
+		3F3C5951192314BC005D9A8B /* Mail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58B4192314BC005D9A8B /* Mail@2x.png */; };
+		3F3C5952192314BC005D9A8B /* Mail@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58B5192314BC005D9A8B /* Mail@2x~ipad.png */; };
+		3F3C5953192314BC005D9A8B /* Mail~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58B6192314BC005D9A8B /* Mail~ipad.png */; };
+		3F3C5954192314BC005D9A8B /* Maps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58B8192314BC005D9A8B /* Maps.plist */; };
+		3F3C5955192314BC005D9A8B /* Maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58B9192314BC005D9A8B /* Maps.png */; };
+		3F3C5956192314BC005D9A8B /* Maps@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58BA192314BC005D9A8B /* Maps@2x.png */; };
+		3F3C5957192314BC005D9A8B /* Maps@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58BB192314BC005D9A8B /* Maps@2x~ipad.png */; };
+		3F3C5958192314BC005D9A8B /* Maps~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58BC192314BC005D9A8B /* Maps~ipad.png */; };
+		3F3C5959192314BC005D9A8B /* Safari.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58BE192314BC005D9A8B /* Safari.plist */; };
+		3F3C595A192314BC005D9A8B /* Safari.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58BF192314BC005D9A8B /* Safari.png */; };
+		3F3C595B192314BC005D9A8B /* Safari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58C0192314BC005D9A8B /* Safari@2x.png */; };
+		3F3C595C192314BC005D9A8B /* Safari@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58C1192314BC005D9A8B /* Safari@2x~ipad.png */; };
+		3F3C595D192314BC005D9A8B /* Safari~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58C2192314BC005D9A8B /* Safari~ipad.png */; };
+		3F3C595E192314BC005D9A8B /* Tweetbot.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58C4192314BC005D9A8B /* Tweetbot.plist */; };
+		3F3C595F192314BC005D9A8B /* Tweetbot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58C5192314BC005D9A8B /* Tweetbot.png */; };
+		3F3C5960192314BC005D9A8B /* Tweetbot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58C6192314BC005D9A8B /* Tweetbot@2x.png */; };
+		3F3C5961192314BC005D9A8B /* Tweetbot@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58C7192314BC005D9A8B /* Tweetbot@2x~ipad.png */; };
+		3F3C5962192314BC005D9A8B /* Tweetbot~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58C8192314BC005D9A8B /* Tweetbot~ipad.png */; };
+		3F3C5963192314BC005D9A8B /* Twitter.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58CA192314BC005D9A8B /* Twitter.plist */; };
+		3F3C5964192314BC005D9A8B /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58CB192314BC005D9A8B /* Twitter.png */; };
+		3F3C5965192314BC005D9A8B /* Twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58CC192314BC005D9A8B /* Twitter@2x.png */; };
+		3F3C5966192314BC005D9A8B /* Twitter@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58CD192314BC005D9A8B /* Twitter@2x~ipad.png */; };
+		3F3C5967192314BC005D9A8B /* Twitter~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58CE192314BC005D9A8B /* Twitter~ipad.png */; };
+		3F3C5968192314BC005D9A8B /* Twitterrific.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58D0192314BC005D9A8B /* Twitterrific.plist */; };
+		3F3C5969192314BC005D9A8B /* Twitterrific.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58D1192314BC005D9A8B /* Twitterrific.png */; };
+		3F3C596A192314BC005D9A8B /* Twitterrific@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58D2192314BC005D9A8B /* Twitterrific@2x.png */; };
+		3F3C596B192314BC005D9A8B /* Twitterrific@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58D3192314BC005D9A8B /* Twitterrific@2x~ipad.png */; };
+		3F3C596C192314BC005D9A8B /* Twitterrific~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58D4192314BC005D9A8B /* Twitterrific~ipad.png */; };
+		3F3C596D192314BC005D9A8B /* NSString+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58D8192314BC005D9A8B /* NSString+Helpers.m */; };
+		3F3C596E192314BC005D9A8B /* INKActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58DA192314BC005D9A8B /* INKActivity.m */; };
+		3F3C596F192314BC005D9A8B /* INKActivityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58DD192314BC005D9A8B /* INKActivityCell.m */; };
+		3F3C5970192314BC005D9A8B /* INKActivityPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58DF192314BC005D9A8B /* INKActivityPresenter.m */; };
+		3F3C5971192314BC005D9A8B /* INKActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58E1192314BC005D9A8B /* INKActivityViewController.m */; };
+		3F3C5972192314BC005D9A8B /* INKAppIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58E3192314BC005D9A8B /* INKAppIconView.m */; };
+		3F3C5973192314BC005D9A8B /* INKApplicationList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58E5192314BC005D9A8B /* INKApplicationList.m */; };
+		3F3C5974192314BC005D9A8B /* INKDefaultsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58E7192314BC005D9A8B /* INKDefaultsManager.m */; };
+		3F3C5975192314BC005D9A8B /* INKDefaultsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58EA192314BC005D9A8B /* INKDefaultsCell.m */; };
+		3F3C5976192314BC005D9A8B /* INKDefaultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58EC192314BC005D9A8B /* INKDefaultsViewController.m */; };
+		3F3C5977192314BC005D9A8B /* INKDefaultToggleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58EE192314BC005D9A8B /* INKDefaultToggleView.m */; };
+		3F3C5978192314BC005D9A8B /* INKHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58F0192314BC005D9A8B /* INKHandler.m */; };
+		3F3C5979192314BC005D9A8B /* INKLocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58F2192314BC005D9A8B /* INKLocalizedString.m */; };
+		3F3C597A192314BC005D9A8B /* INKOpenInActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58F4192314BC005D9A8B /* INKOpenInActivity.m */; };
+		3F3C597B192314BC005D9A8B /* IntentKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58F7192314BC005D9A8B /* IntentKit.m */; };
+		3F3C597C192314BC005D9A8B /* INKBrowserHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58FA192314BC005D9A8B /* INKBrowserHandler.m */; };
+		3F3C597D192314BC005D9A8B /* INKFacebookHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58FC192314BC005D9A8B /* INKFacebookHandler.m */; };
+		3F3C597E192314BC005D9A8B /* INKGPlusHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C58FE192314BC005D9A8B /* INKGPlusHandler.m */; };
+		3F3C597F192314BC005D9A8B /* INKMailHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C5900192314BC005D9A8B /* INKMailHandler.m */; };
+		3F3C5980192314BC005D9A8B /* INKMapsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C5902192314BC005D9A8B /* INKMapsHandler.m */; };
+		3F3C5981192314BC005D9A8B /* INKTwitterHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C5904192314BC005D9A8B /* INKTwitterHandler.m */; };
+		3F3C5982192314BC005D9A8B /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5906192314BC005D9A8B /* back.png */; };
+		3F3C5983192314BC005D9A8B /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5907192314BC005D9A8B /* back@2x.png */; };
+		3F3C5984192314BC005D9A8B /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5908192314BC005D9A8B /* forward.png */; };
+		3F3C5985192314BC005D9A8B /* forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5909192314BC005D9A8B /* forward@2x.png */; };
+		3F3C5986192314BC005D9A8B /* iconBorder.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C590A192314BC005D9A8B /* iconBorder.png */; };
+		3F3C5987192314BC005D9A8B /* iconBorder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C590B192314BC005D9A8B /* iconBorder@2x.png */; };
+		3F3C5988192314BC005D9A8B /* iconBorder@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C590C192314BC005D9A8B /* iconBorder@2x~ipad.png */; };
+		3F3C5989192314BC005D9A8B /* iconBorder~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C590D192314BC005D9A8B /* iconBorder~ipad.png */; };
+		3F3C598A192314BC005D9A8B /* iconMask.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C590E192314BC005D9A8B /* iconMask.png */; };
+		3F3C598B192314BC005D9A8B /* iconMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C590F192314BC005D9A8B /* iconMask@2x.png */; };
+		3F3C598C192314BC005D9A8B /* iconMask@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5910192314BC005D9A8B /* iconMask@2x~ipad.png */; };
+		3F3C598D192314BC005D9A8B /* iconMask~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5911192314BC005D9A8B /* iconMask~ipad.png */; };
+		3F3C598E192314BC005D9A8B /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5912192314BC005D9A8B /* share.png */; };
+		3F3C598F192314BC005D9A8B /* share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5913192314BC005D9A8B /* share@2x.png */; };
+		3F3C5990192314BC005D9A8B /* IntentKit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5914192314BC005D9A8B /* IntentKit-Info.plist */; };
+		3F3C5991192314BC005D9A8B /* IntentKit-Localizations.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5915192314BC005D9A8B /* IntentKit-Localizations.bundle */; };
+		3F3C5994192314D2005D9A8B /* DemoIntent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C5993192314D2005D9A8B /* DemoIntent.m */; };
+		3F3C59991923174D005D9A8B /* UIView+MWLayoutHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C59981923174D005D9A8B /* UIView+MWLayoutHelpers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +246,167 @@
 		3F3C584D1922F9AD005D9A8B /* DemoRESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoRESideMenu.h; path = iOS8/Demos/RESideMenu/DemoRESideMenu.h; sourceTree = SOURCE_ROOT; };
 		3F3C584E1922F9AD005D9A8B /* DemoRESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoRESideMenu.m; path = iOS8/Demos/RESideMenu/DemoRESideMenu.m; sourceTree = SOURCE_ROOT; };
 		3F3C58501922FC9B005D9A8B /* RESideMenuScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RESideMenuScreenShot.png; path = iOS8/Demos/RESideMenu/RESideMenuScreenShot.png; sourceTree = SOURCE_ROOT; };
+		3F3C58561923141B005D9A8B /* IntentScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IntentScreenShot.png; path = Demos/IntentKit/IntentScreenShot.png; sourceTree = "<group>"; };
+		3F3C585A19231498005D9A8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F3C585B19231498005D9A8B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F3C585C19231498005D9A8B /* INKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKAppDelegate.h; sourceTree = "<group>"; };
+		3F3C585D19231498005D9A8B /* INKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKAppDelegate.m; sourceTree = "<group>"; };
+		3F3C585E19231498005D9A8B /* INKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKViewController.h; sourceTree = "<group>"; };
+		3F3C585F19231498005D9A8B /* INKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKViewController.m; sourceTree = "<group>"; };
+		3F3C586C192314BC005D9A8B /* 1Password.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1Password.plist; sourceTree = "<group>"; };
+		3F3C586D192314BC005D9A8B /* 1Password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1Password.png; sourceTree = "<group>"; };
+		3F3C586E192314BC005D9A8B /* 1Password@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1Password@2x.png"; sourceTree = "<group>"; };
+		3F3C586F192314BC005D9A8B /* 1Password@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1Password@2x~ipad.png"; sourceTree = "<group>"; };
+		3F3C5870192314BC005D9A8B /* 1Password~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1Password~ipad.png"; sourceTree = "<group>"; };
+		3F3C5872192314BC005D9A8B /* Chrome.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Chrome.plist; sourceTree = "<group>"; };
+		3F3C5873192314BC005D9A8B /* Chrome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chrome.png; sourceTree = "<group>"; };
+		3F3C5874192314BC005D9A8B /* Chrome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrome@2x.png"; sourceTree = "<group>"; };
+		3F3C5875192314BC005D9A8B /* Chrome@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrome@2x~ipad.png"; sourceTree = "<group>"; };
+		3F3C5876192314BC005D9A8B /* Chrome~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrome~ipad.png"; sourceTree = "<group>"; };
+		3F3C5878192314BC005D9A8B /* INKBrowserHandler.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = INKBrowserHandler.plist; sourceTree = "<group>"; };
+		3F3C5879192314BC005D9A8B /* INKFacebookHandler.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = INKFacebookHandler.plist; sourceTree = "<group>"; };
+		3F3C587A192314BC005D9A8B /* INKGPlusHandler.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = INKGPlusHandler.plist; sourceTree = "<group>"; };
+		3F3C587B192314BC005D9A8B /* INKMailHandler.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = INKMailHandler.plist; sourceTree = "<group>"; };
+		3F3C587C192314BC005D9A8B /* INKMapsHandler.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = INKMapsHandler.plist; sourceTree = "<group>"; };
+		3F3C587D192314BC005D9A8B /* INKTwitterHandler.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = INKTwitterHandler.plist; sourceTree = "<group>"; };
+		3F3C587F192314BC005D9A8B /* Facebook.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Facebook.plist; sourceTree = "<group>"; };
+		3F3C5880192314BC005D9A8B /* Facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Facebook.png; sourceTree = "<group>"; };
+		3F3C5881192314BC005D9A8B /* Facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facebook@2x.png"; sourceTree = "<group>"; };
+		3F3C5882192314BC005D9A8B /* Facebook@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facebook@2x~ipad.png"; sourceTree = "<group>"; };
+		3F3C5883192314BC005D9A8B /* Facebook~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facebook~ipad.png"; sourceTree = "<group>"; };
+		3F3C5885192314BC005D9A8B /* Gmail.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Gmail.plist; sourceTree = "<group>"; };
+		3F3C5886192314BC005D9A8B /* Gmail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gmail.png; sourceTree = "<group>"; };
+		3F3C5887192314BC005D9A8B /* Gmail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gmail@2x.png"; sourceTree = "<group>"; };
+		3F3C5888192314BC005D9A8B /* Gmail@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gmail@2x~ipad.png"; sourceTree = "<group>"; };
+		3F3C5889192314BC005D9A8B /* Gmail~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gmail~ipad.png"; sourceTree = "<group>"; };
+		3F3C588B192314BC005D9A8B /* Google Maps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Google Maps.plist"; sourceTree = "<group>"; };
+		3F3C588C192314BC005D9A8B /* Google Maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Google Maps.png"; sourceTree = "<group>"; };
+		3F3C588D192314BC005D9A8B /* Google Maps@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Google Maps@2x.png"; sourceTree = "<group>"; };
+		3F3C588E192314BC005D9A8B /* Google Maps@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Google Maps@2x~ipad.png"; sourceTree = "<group>"; };
+		3F3C588F192314BC005D9A8B /* Google Maps~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Google Maps~ipad.png"; sourceTree = "<group>"; };
+		3F3C5891192314BC005D9A8B /* Google+.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Google+.plist"; sourceTree = "<group>"; };
+		3F3C5892192314BC005D9A8B /* Google+.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Google+.png"; sourceTree = "<group>"; };
+		3F3C5893192314BC005D9A8B /* Google+@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Google+@2x.png"; sourceTree = "<group>"; };
+		3F3C5894192314BC005D9A8B /* Google+@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Google+@2x~ipad.png"; sourceTree = "<group>"; };
+		3F3C5895192314BC005D9A8B /* Google+~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Google+~ipad.png"; sourceTree = "<group>"; };
+		3F3C5897192314BC005D9A8B /* INKMailSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKMailSheet.h; sourceTree = "<group>"; };
+		3F3C5898192314BC005D9A8B /* INKMailSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKMailSheet.m; sourceTree = "<group>"; };
+		3F3C5899192314BC005D9A8B /* INKMailSheet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = INKMailSheet.plist; sourceTree = "<group>"; };
+		3F3C589A192314BC005D9A8B /* INKMailSheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = INKMailSheet.png; sourceTree = "<group>"; };
+		3F3C589B192314BC005D9A8B /* INKMailSheet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "INKMailSheet@2x.png"; sourceTree = "<group>"; };
+		3F3C589C192314BC005D9A8B /* INKMailSheet@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "INKMailSheet@2x~ipad.png"; sourceTree = "<group>"; };
+		3F3C589D192314BC005D9A8B /* INKMailSheet~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "INKMailSheet~ipad.png"; sourceTree = "<group>"; };
+		3F3C589F192314BC005D9A8B /* INKTweetSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKTweetSheet.h; sourceTree = "<group>"; };
+		3F3C58A0192314BC005D9A8B /* INKTweetSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKTweetSheet.m; sourceTree = "<group>"; };
+		3F3C58A1192314BC005D9A8B /* INKTweetSheet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = INKTweetSheet.plist; sourceTree = "<group>"; };
+		3F3C58A2192314BC005D9A8B /* INKTweetSheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = INKTweetSheet.png; sourceTree = "<group>"; };
+		3F3C58A3192314BC005D9A8B /* INKTweetSheet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "INKTweetSheet@2x.png"; sourceTree = "<group>"; };
+		3F3C58A4192314BC005D9A8B /* INKTweetSheet@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "INKTweetSheet@2x~ipad.png"; sourceTree = "<group>"; };
+		3F3C58A5192314BC005D9A8B /* INKTweetSheet~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "INKTweetSheet~ipad.png"; sourceTree = "<group>"; };
+		3F3C58A7192314BC005D9A8B /* INKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKWebView.h; sourceTree = "<group>"; };
+		3F3C58A8192314BC005D9A8B /* INKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKWebView.m; sourceTree = "<group>"; };
+		3F3C58A9192314BC005D9A8B /* INKWebView.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = INKWebView.plist; sourceTree = "<group>"; };
+		3F3C58AA192314BC005D9A8B /* INKWebView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = INKWebView.png; sourceTree = "<group>"; };
+		3F3C58AB192314BC005D9A8B /* INKWebView@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "INKWebView@2x.png"; sourceTree = "<group>"; };
+		3F3C58AC192314BC005D9A8B /* INKWebView@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "INKWebView@2x~ipad.png"; sourceTree = "<group>"; };
+		3F3C58AD192314BC005D9A8B /* INKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKWebViewController.h; sourceTree = "<group>"; };
+		3F3C58AE192314BC005D9A8B /* INKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKWebViewController.m; sourceTree = "<group>"; };
+		3F3C58AF192314BC005D9A8B /* INKWebView~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "INKWebView~ipad.png"; sourceTree = "<group>"; };
+		3F3C58B0192314BC005D9A8B /* IntentKitBundle-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IntentKitBundle-Info.plist"; sourceTree = "<group>"; };
+		3F3C58B2192314BC005D9A8B /* Mail.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Mail.plist; sourceTree = "<group>"; };
+		3F3C58B3192314BC005D9A8B /* Mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mail.png; sourceTree = "<group>"; };
+		3F3C58B4192314BC005D9A8B /* Mail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mail@2x.png"; sourceTree = "<group>"; };
+		3F3C58B5192314BC005D9A8B /* Mail@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mail@2x~ipad.png"; sourceTree = "<group>"; };
+		3F3C58B6192314BC005D9A8B /* Mail~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mail~ipad.png"; sourceTree = "<group>"; };
+		3F3C58B8192314BC005D9A8B /* Maps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Maps.plist; sourceTree = "<group>"; };
+		3F3C58B9192314BC005D9A8B /* Maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Maps.png; sourceTree = "<group>"; };
+		3F3C58BA192314BC005D9A8B /* Maps@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Maps@2x.png"; sourceTree = "<group>"; };
+		3F3C58BB192314BC005D9A8B /* Maps@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Maps@2x~ipad.png"; sourceTree = "<group>"; };
+		3F3C58BC192314BC005D9A8B /* Maps~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Maps~ipad.png"; sourceTree = "<group>"; };
+		3F3C58BE192314BC005D9A8B /* Safari.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Safari.plist; sourceTree = "<group>"; };
+		3F3C58BF192314BC005D9A8B /* Safari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Safari.png; sourceTree = "<group>"; };
+		3F3C58C0192314BC005D9A8B /* Safari@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Safari@2x.png"; sourceTree = "<group>"; };
+		3F3C58C1192314BC005D9A8B /* Safari@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Safari@2x~ipad.png"; sourceTree = "<group>"; };
+		3F3C58C2192314BC005D9A8B /* Safari~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Safari~ipad.png"; sourceTree = "<group>"; };
+		3F3C58C4192314BC005D9A8B /* Tweetbot.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tweetbot.plist; sourceTree = "<group>"; };
+		3F3C58C5192314BC005D9A8B /* Tweetbot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tweetbot.png; sourceTree = "<group>"; };
+		3F3C58C6192314BC005D9A8B /* Tweetbot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tweetbot@2x.png"; sourceTree = "<group>"; };
+		3F3C58C7192314BC005D9A8B /* Tweetbot@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tweetbot@2x~ipad.png"; sourceTree = "<group>"; };
+		3F3C58C8192314BC005D9A8B /* Tweetbot~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tweetbot~ipad.png"; sourceTree = "<group>"; };
+		3F3C58CA192314BC005D9A8B /* Twitter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Twitter.plist; sourceTree = "<group>"; };
+		3F3C58CB192314BC005D9A8B /* Twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter.png; sourceTree = "<group>"; };
+		3F3C58CC192314BC005D9A8B /* Twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twitter@2x.png"; sourceTree = "<group>"; };
+		3F3C58CD192314BC005D9A8B /* Twitter@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twitter@2x~ipad.png"; sourceTree = "<group>"; };
+		3F3C58CE192314BC005D9A8B /* Twitter~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twitter~ipad.png"; sourceTree = "<group>"; };
+		3F3C58D0192314BC005D9A8B /* Twitterrific.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Twitterrific.plist; sourceTree = "<group>"; };
+		3F3C58D1192314BC005D9A8B /* Twitterrific.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitterrific.png; sourceTree = "<group>"; };
+		3F3C58D2192314BC005D9A8B /* Twitterrific@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twitterrific@2x.png"; sourceTree = "<group>"; };
+		3F3C58D3192314BC005D9A8B /* Twitterrific@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twitterrific@2x~ipad.png"; sourceTree = "<group>"; };
+		3F3C58D4192314BC005D9A8B /* Twitterrific~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twitterrific~ipad.png"; sourceTree = "<group>"; };
+		3F3C58D7192314BC005D9A8B /* NSString+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helpers.h"; sourceTree = "<group>"; };
+		3F3C58D8192314BC005D9A8B /* NSString+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helpers.m"; sourceTree = "<group>"; };
+		3F3C58D9192314BC005D9A8B /* INKActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKActivity.h; sourceTree = "<group>"; };
+		3F3C58DA192314BC005D9A8B /* INKActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKActivity.m; sourceTree = "<group>"; };
+		3F3C58DC192314BC005D9A8B /* INKActivityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKActivityCell.h; sourceTree = "<group>"; };
+		3F3C58DD192314BC005D9A8B /* INKActivityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKActivityCell.m; sourceTree = "<group>"; };
+		3F3C58DE192314BC005D9A8B /* INKActivityPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKActivityPresenter.h; sourceTree = "<group>"; };
+		3F3C58DF192314BC005D9A8B /* INKActivityPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKActivityPresenter.m; sourceTree = "<group>"; };
+		3F3C58E0192314BC005D9A8B /* INKActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKActivityViewController.h; sourceTree = "<group>"; };
+		3F3C58E1192314BC005D9A8B /* INKActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKActivityViewController.m; sourceTree = "<group>"; };
+		3F3C58E2192314BC005D9A8B /* INKAppIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKAppIconView.h; sourceTree = "<group>"; };
+		3F3C58E3192314BC005D9A8B /* INKAppIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKAppIconView.m; sourceTree = "<group>"; };
+		3F3C58E4192314BC005D9A8B /* INKApplicationList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKApplicationList.h; sourceTree = "<group>"; };
+		3F3C58E5192314BC005D9A8B /* INKApplicationList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKApplicationList.m; sourceTree = "<group>"; };
+		3F3C58E6192314BC005D9A8B /* INKDefaultsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKDefaultsManager.h; sourceTree = "<group>"; };
+		3F3C58E7192314BC005D9A8B /* INKDefaultsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKDefaultsManager.m; sourceTree = "<group>"; };
+		3F3C58E9192314BC005D9A8B /* INKDefaultsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKDefaultsCell.h; sourceTree = "<group>"; };
+		3F3C58EA192314BC005D9A8B /* INKDefaultsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKDefaultsCell.m; sourceTree = "<group>"; };
+		3F3C58EB192314BC005D9A8B /* INKDefaultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKDefaultsViewController.h; sourceTree = "<group>"; };
+		3F3C58EC192314BC005D9A8B /* INKDefaultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKDefaultsViewController.m; sourceTree = "<group>"; };
+		3F3C58ED192314BC005D9A8B /* INKDefaultToggleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKDefaultToggleView.h; sourceTree = "<group>"; };
+		3F3C58EE192314BC005D9A8B /* INKDefaultToggleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKDefaultToggleView.m; sourceTree = "<group>"; };
+		3F3C58EF192314BC005D9A8B /* INKHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKHandler.h; sourceTree = "<group>"; };
+		3F3C58F0192314BC005D9A8B /* INKHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKHandler.m; sourceTree = "<group>"; };
+		3F3C58F1192314BC005D9A8B /* INKLocalizedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKLocalizedString.h; sourceTree = "<group>"; };
+		3F3C58F2192314BC005D9A8B /* INKLocalizedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKLocalizedString.m; sourceTree = "<group>"; };
+		3F3C58F3192314BC005D9A8B /* INKOpenInActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKOpenInActivity.h; sourceTree = "<group>"; };
+		3F3C58F4192314BC005D9A8B /* INKOpenInActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKOpenInActivity.m; sourceTree = "<group>"; };
+		3F3C58F5192314BC005D9A8B /* INKPresentable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKPresentable.h; sourceTree = "<group>"; };
+		3F3C58F6192314BC005D9A8B /* IntentKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntentKit.h; sourceTree = "<group>"; };
+		3F3C58F7192314BC005D9A8B /* IntentKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntentKit.m; sourceTree = "<group>"; };
+		3F3C58F9192314BC005D9A8B /* INKBrowserHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKBrowserHandler.h; sourceTree = "<group>"; };
+		3F3C58FA192314BC005D9A8B /* INKBrowserHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKBrowserHandler.m; sourceTree = "<group>"; };
+		3F3C58FB192314BC005D9A8B /* INKFacebookHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKFacebookHandler.h; sourceTree = "<group>"; };
+		3F3C58FC192314BC005D9A8B /* INKFacebookHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKFacebookHandler.m; sourceTree = "<group>"; };
+		3F3C58FD192314BC005D9A8B /* INKGPlusHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKGPlusHandler.h; sourceTree = "<group>"; };
+		3F3C58FE192314BC005D9A8B /* INKGPlusHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKGPlusHandler.m; sourceTree = "<group>"; };
+		3F3C58FF192314BC005D9A8B /* INKMailHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKMailHandler.h; sourceTree = "<group>"; };
+		3F3C5900192314BC005D9A8B /* INKMailHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKMailHandler.m; sourceTree = "<group>"; };
+		3F3C5901192314BC005D9A8B /* INKMapsHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKMapsHandler.h; sourceTree = "<group>"; };
+		3F3C5902192314BC005D9A8B /* INKMapsHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKMapsHandler.m; sourceTree = "<group>"; };
+		3F3C5903192314BC005D9A8B /* INKTwitterHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKTwitterHandler.h; sourceTree = "<group>"; };
+		3F3C5904192314BC005D9A8B /* INKTwitterHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKTwitterHandler.m; sourceTree = "<group>"; };
+		3F3C5906192314BC005D9A8B /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		3F3C5907192314BC005D9A8B /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		3F3C5908192314BC005D9A8B /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		3F3C5909192314BC005D9A8B /* forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward@2x.png"; sourceTree = "<group>"; };
+		3F3C590A192314BC005D9A8B /* iconBorder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconBorder.png; sourceTree = "<group>"; };
+		3F3C590B192314BC005D9A8B /* iconBorder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconBorder@2x.png"; sourceTree = "<group>"; };
+		3F3C590C192314BC005D9A8B /* iconBorder@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconBorder@2x~ipad.png"; sourceTree = "<group>"; };
+		3F3C590D192314BC005D9A8B /* iconBorder~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconBorder~ipad.png"; sourceTree = "<group>"; };
+		3F3C590E192314BC005D9A8B /* iconMask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconMask.png; sourceTree = "<group>"; };
+		3F3C590F192314BC005D9A8B /* iconMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconMask@2x.png"; sourceTree = "<group>"; };
+		3F3C5910192314BC005D9A8B /* iconMask@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconMask@2x~ipad.png"; sourceTree = "<group>"; };
+		3F3C5911192314BC005D9A8B /* iconMask~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconMask~ipad.png"; sourceTree = "<group>"; };
+		3F3C5912192314BC005D9A8B /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		3F3C5913192314BC005D9A8B /* share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@2x.png"; sourceTree = "<group>"; };
+		3F3C5914192314BC005D9A8B /* IntentKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IntentKit-Info.plist"; sourceTree = "<group>"; };
+		3F3C5915192314BC005D9A8B /* IntentKit-Localizations.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "IntentKit-Localizations.bundle"; sourceTree = "<group>"; };
+		3F3C5916192314BC005D9A8B /* IntentKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IntentKit-Prefix.pch"; sourceTree = "<group>"; };
+		3F3C5992192314D2005D9A8B /* DemoIntent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoIntent.h; path = Demos/IntentKit/DemoIntent.h; sourceTree = "<group>"; };
+		3F3C5993192314D2005D9A8B /* DemoIntent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoIntent.m; path = Demos/IntentKit/DemoIntent.m; sourceTree = "<group>"; };
+		3F3C59971923174D005D9A8B /* UIView+MWLayoutHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+MWLayoutHelpers.h"; path = "Dependencies/MWLayoutHelpers/Classes/UIView+MWLayoutHelpers.h"; sourceTree = "<group>"; };
+		3F3C59981923174D005D9A8B /* UIView+MWLayoutHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+MWLayoutHelpers.m"; path = "Dependencies/MWLayoutHelpers/Classes/UIView+MWLayoutHelpers.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +467,7 @@
 			isa = PBXGroup;
 			children = (
 				3F3C57D319229C1B005D9A8B /* Supporting Files */,
+				3F3C5995192316EC005D9A8B /* Dependencies */,
 				3F3C58131922B903005D9A8B /* Media */,
 				3F3C581E1922EC34005D9A8B /* Header */,
 				3F3C580A1922A354005D9A8B /* Demos */,
@@ -243,6 +535,7 @@
 				3F3C58091922A2BA005D9A8B /* DemoApp.h */,
 				3F3C580B1922A372005D9A8B /* Emma */,
 				3F3C58251922F75D005D9A8B /* RESideMenu */,
+				3F3C5852192313AC005D9A8B /* Intent */,
 			);
 			name = Demos;
 			sourceTree = "<group>";
@@ -369,6 +662,423 @@
 			path = iOS8/Demos/RESideMenu/RESideMenu;
 			sourceTree = SOURCE_ROOT;
 		};
+		3F3C5852192313AC005D9A8B /* Intent */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C58561923141B005D9A8B /* IntentScreenShot.png */,
+				3F3C5853192313FB005D9A8B /* Demo */,
+				3F3C5854192313FF005D9A8B /* Source */,
+				3F3C5992192314D2005D9A8B /* DemoIntent.h */,
+				3F3C5993192314D2005D9A8B /* DemoIntent.m */,
+			);
+			name = Intent;
+			sourceTree = "<group>";
+		};
+		3F3C5853192313FB005D9A8B /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C585819231498005D9A8B /* IntentKitDemo */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		3F3C5854192313FF005D9A8B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C5869192314BC005D9A8B /* IntentKit */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		3F3C585819231498005D9A8B /* IntentKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C599B192319A1005D9A8B /* Supporting Files */,
+				3F3C599A1923198B005D9A8B /* Header */,
+				3F3C585D19231498005D9A8B /* INKAppDelegate.m */,
+				3F3C585F19231498005D9A8B /* INKViewController.m */,
+			);
+			name = IntentKitDemo;
+			path = Demos/IntentKit/IntentKitDemo;
+			sourceTree = "<group>";
+		};
+		3F3C5869192314BC005D9A8B /* IntentKit */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C586A192314BC005D9A8B /* Apps */,
+				3F3C58D5192314BC005D9A8B /* Core */,
+				3F3C58F8192314BC005D9A8B /* Handlers */,
+				3F3C5905192314BC005D9A8B /* Images */,
+				3F3C5914192314BC005D9A8B /* IntentKit-Info.plist */,
+				3F3C5915192314BC005D9A8B /* IntentKit-Localizations.bundle */,
+				3F3C5916192314BC005D9A8B /* IntentKit-Prefix.pch */,
+			);
+			name = IntentKit;
+			path = Demos/IntentKit/IntentKit;
+			sourceTree = "<group>";
+		};
+		3F3C586A192314BC005D9A8B /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C586B192314BC005D9A8B /* 1Password */,
+				3F3C5871192314BC005D9A8B /* Chrome */,
+				3F3C5877192314BC005D9A8B /* Defaults */,
+				3F3C587E192314BC005D9A8B /* Facebook */,
+				3F3C5884192314BC005D9A8B /* Gmail */,
+				3F3C588A192314BC005D9A8B /* Google Maps */,
+				3F3C5890192314BC005D9A8B /* Google+ */,
+				3F3C5896192314BC005D9A8B /* INKMailSheet */,
+				3F3C589E192314BC005D9A8B /* INKTweetSheet */,
+				3F3C58A6192314BC005D9A8B /* INKWebView */,
+				3F3C58B0192314BC005D9A8B /* IntentKitBundle-Info.plist */,
+				3F3C58B1192314BC005D9A8B /* Mail */,
+				3F3C58B7192314BC005D9A8B /* Maps */,
+				3F3C58BD192314BC005D9A8B /* Safari */,
+				3F3C58C3192314BC005D9A8B /* Tweetbot */,
+				3F3C58C9192314BC005D9A8B /* Twitter */,
+				3F3C58CF192314BC005D9A8B /* Twitterrific */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		3F3C586B192314BC005D9A8B /* 1Password */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C586C192314BC005D9A8B /* 1Password.plist */,
+				3F3C586D192314BC005D9A8B /* 1Password.png */,
+				3F3C586E192314BC005D9A8B /* 1Password@2x.png */,
+				3F3C586F192314BC005D9A8B /* 1Password@2x~ipad.png */,
+				3F3C5870192314BC005D9A8B /* 1Password~ipad.png */,
+			);
+			path = 1Password;
+			sourceTree = "<group>";
+		};
+		3F3C5871192314BC005D9A8B /* Chrome */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C5872192314BC005D9A8B /* Chrome.plist */,
+				3F3C5873192314BC005D9A8B /* Chrome.png */,
+				3F3C5874192314BC005D9A8B /* Chrome@2x.png */,
+				3F3C5875192314BC005D9A8B /* Chrome@2x~ipad.png */,
+				3F3C5876192314BC005D9A8B /* Chrome~ipad.png */,
+			);
+			path = Chrome;
+			sourceTree = "<group>";
+		};
+		3F3C5877192314BC005D9A8B /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C5878192314BC005D9A8B /* INKBrowserHandler.plist */,
+				3F3C5879192314BC005D9A8B /* INKFacebookHandler.plist */,
+				3F3C587A192314BC005D9A8B /* INKGPlusHandler.plist */,
+				3F3C587B192314BC005D9A8B /* INKMailHandler.plist */,
+				3F3C587C192314BC005D9A8B /* INKMapsHandler.plist */,
+				3F3C587D192314BC005D9A8B /* INKTwitterHandler.plist */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		3F3C587E192314BC005D9A8B /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C587F192314BC005D9A8B /* Facebook.plist */,
+				3F3C5880192314BC005D9A8B /* Facebook.png */,
+				3F3C5881192314BC005D9A8B /* Facebook@2x.png */,
+				3F3C5882192314BC005D9A8B /* Facebook@2x~ipad.png */,
+				3F3C5883192314BC005D9A8B /* Facebook~ipad.png */,
+			);
+			path = Facebook;
+			sourceTree = "<group>";
+		};
+		3F3C5884192314BC005D9A8B /* Gmail */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C5885192314BC005D9A8B /* Gmail.plist */,
+				3F3C5886192314BC005D9A8B /* Gmail.png */,
+				3F3C5887192314BC005D9A8B /* Gmail@2x.png */,
+				3F3C5888192314BC005D9A8B /* Gmail@2x~ipad.png */,
+				3F3C5889192314BC005D9A8B /* Gmail~ipad.png */,
+			);
+			path = Gmail;
+			sourceTree = "<group>";
+		};
+		3F3C588A192314BC005D9A8B /* Google Maps */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C588B192314BC005D9A8B /* Google Maps.plist */,
+				3F3C588C192314BC005D9A8B /* Google Maps.png */,
+				3F3C588D192314BC005D9A8B /* Google Maps@2x.png */,
+				3F3C588E192314BC005D9A8B /* Google Maps@2x~ipad.png */,
+				3F3C588F192314BC005D9A8B /* Google Maps~ipad.png */,
+			);
+			path = "Google Maps";
+			sourceTree = "<group>";
+		};
+		3F3C5890192314BC005D9A8B /* Google+ */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C5891192314BC005D9A8B /* Google+.plist */,
+				3F3C5892192314BC005D9A8B /* Google+.png */,
+				3F3C5893192314BC005D9A8B /* Google+@2x.png */,
+				3F3C5894192314BC005D9A8B /* Google+@2x~ipad.png */,
+				3F3C5895192314BC005D9A8B /* Google+~ipad.png */,
+			);
+			path = "Google+";
+			sourceTree = "<group>";
+		};
+		3F3C5896192314BC005D9A8B /* INKMailSheet */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C5897192314BC005D9A8B /* INKMailSheet.h */,
+				3F3C5898192314BC005D9A8B /* INKMailSheet.m */,
+				3F3C5899192314BC005D9A8B /* INKMailSheet.plist */,
+				3F3C589A192314BC005D9A8B /* INKMailSheet.png */,
+				3F3C589B192314BC005D9A8B /* INKMailSheet@2x.png */,
+				3F3C589C192314BC005D9A8B /* INKMailSheet@2x~ipad.png */,
+				3F3C589D192314BC005D9A8B /* INKMailSheet~ipad.png */,
+			);
+			path = INKMailSheet;
+			sourceTree = "<group>";
+		};
+		3F3C589E192314BC005D9A8B /* INKTweetSheet */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C589F192314BC005D9A8B /* INKTweetSheet.h */,
+				3F3C58A0192314BC005D9A8B /* INKTweetSheet.m */,
+				3F3C58A1192314BC005D9A8B /* INKTweetSheet.plist */,
+				3F3C58A2192314BC005D9A8B /* INKTweetSheet.png */,
+				3F3C58A3192314BC005D9A8B /* INKTweetSheet@2x.png */,
+				3F3C58A4192314BC005D9A8B /* INKTweetSheet@2x~ipad.png */,
+				3F3C58A5192314BC005D9A8B /* INKTweetSheet~ipad.png */,
+			);
+			path = INKTweetSheet;
+			sourceTree = "<group>";
+		};
+		3F3C58A6192314BC005D9A8B /* INKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C58A7192314BC005D9A8B /* INKWebView.h */,
+				3F3C58A8192314BC005D9A8B /* INKWebView.m */,
+				3F3C58A9192314BC005D9A8B /* INKWebView.plist */,
+				3F3C58AA192314BC005D9A8B /* INKWebView.png */,
+				3F3C58AB192314BC005D9A8B /* INKWebView@2x.png */,
+				3F3C58AC192314BC005D9A8B /* INKWebView@2x~ipad.png */,
+				3F3C58AD192314BC005D9A8B /* INKWebViewController.h */,
+				3F3C58AE192314BC005D9A8B /* INKWebViewController.m */,
+				3F3C58AF192314BC005D9A8B /* INKWebView~ipad.png */,
+			);
+			path = INKWebView;
+			sourceTree = "<group>";
+		};
+		3F3C58B1192314BC005D9A8B /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C58B2192314BC005D9A8B /* Mail.plist */,
+				3F3C58B3192314BC005D9A8B /* Mail.png */,
+				3F3C58B4192314BC005D9A8B /* Mail@2x.png */,
+				3F3C58B5192314BC005D9A8B /* Mail@2x~ipad.png */,
+				3F3C58B6192314BC005D9A8B /* Mail~ipad.png */,
+			);
+			path = Mail;
+			sourceTree = "<group>";
+		};
+		3F3C58B7192314BC005D9A8B /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C58B8192314BC005D9A8B /* Maps.plist */,
+				3F3C58B9192314BC005D9A8B /* Maps.png */,
+				3F3C58BA192314BC005D9A8B /* Maps@2x.png */,
+				3F3C58BB192314BC005D9A8B /* Maps@2x~ipad.png */,
+				3F3C58BC192314BC005D9A8B /* Maps~ipad.png */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		3F3C58BD192314BC005D9A8B /* Safari */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C58BE192314BC005D9A8B /* Safari.plist */,
+				3F3C58BF192314BC005D9A8B /* Safari.png */,
+				3F3C58C0192314BC005D9A8B /* Safari@2x.png */,
+				3F3C58C1192314BC005D9A8B /* Safari@2x~ipad.png */,
+				3F3C58C2192314BC005D9A8B /* Safari~ipad.png */,
+			);
+			path = Safari;
+			sourceTree = "<group>";
+		};
+		3F3C58C3192314BC005D9A8B /* Tweetbot */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C58C4192314BC005D9A8B /* Tweetbot.plist */,
+				3F3C58C5192314BC005D9A8B /* Tweetbot.png */,
+				3F3C58C6192314BC005D9A8B /* Tweetbot@2x.png */,
+				3F3C58C7192314BC005D9A8B /* Tweetbot@2x~ipad.png */,
+				3F3C58C8192314BC005D9A8B /* Tweetbot~ipad.png */,
+			);
+			path = Tweetbot;
+			sourceTree = "<group>";
+		};
+		3F3C58C9192314BC005D9A8B /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C58CA192314BC005D9A8B /* Twitter.plist */,
+				3F3C58CB192314BC005D9A8B /* Twitter.png */,
+				3F3C58CC192314BC005D9A8B /* Twitter@2x.png */,
+				3F3C58CD192314BC005D9A8B /* Twitter@2x~ipad.png */,
+				3F3C58CE192314BC005D9A8B /* Twitter~ipad.png */,
+			);
+			path = Twitter;
+			sourceTree = "<group>";
+		};
+		3F3C58CF192314BC005D9A8B /* Twitterrific */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C58D0192314BC005D9A8B /* Twitterrific.plist */,
+				3F3C58D1192314BC005D9A8B /* Twitterrific.png */,
+				3F3C58D2192314BC005D9A8B /* Twitterrific@2x.png */,
+				3F3C58D3192314BC005D9A8B /* Twitterrific@2x~ipad.png */,
+				3F3C58D4192314BC005D9A8B /* Twitterrific~ipad.png */,
+			);
+			path = Twitterrific;
+			sourceTree = "<group>";
+		};
+		3F3C58D5192314BC005D9A8B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C58D6192314BC005D9A8B /* Helpers */,
+				3F3C58D9192314BC005D9A8B /* INKActivity.h */,
+				3F3C58DA192314BC005D9A8B /* INKActivity.m */,
+				3F3C58DB192314BC005D9A8B /* INKActivityViewController */,
+				3F3C58E2192314BC005D9A8B /* INKAppIconView.h */,
+				3F3C58E3192314BC005D9A8B /* INKAppIconView.m */,
+				3F3C58E4192314BC005D9A8B /* INKApplicationList.h */,
+				3F3C58E5192314BC005D9A8B /* INKApplicationList.m */,
+				3F3C58E6192314BC005D9A8B /* INKDefaultsManager.h */,
+				3F3C58E7192314BC005D9A8B /* INKDefaultsManager.m */,
+				3F3C58E8192314BC005D9A8B /* INKDefaultsViewController */,
+				3F3C58ED192314BC005D9A8B /* INKDefaultToggleView.h */,
+				3F3C58EE192314BC005D9A8B /* INKDefaultToggleView.m */,
+				3F3C58EF192314BC005D9A8B /* INKHandler.h */,
+				3F3C58F0192314BC005D9A8B /* INKHandler.m */,
+				3F3C58F1192314BC005D9A8B /* INKLocalizedString.h */,
+				3F3C58F2192314BC005D9A8B /* INKLocalizedString.m */,
+				3F3C58F3192314BC005D9A8B /* INKOpenInActivity.h */,
+				3F3C58F4192314BC005D9A8B /* INKOpenInActivity.m */,
+				3F3C58F5192314BC005D9A8B /* INKPresentable.h */,
+				3F3C58F6192314BC005D9A8B /* IntentKit.h */,
+				3F3C58F7192314BC005D9A8B /* IntentKit.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3F3C58D6192314BC005D9A8B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C58D7192314BC005D9A8B /* NSString+Helpers.h */,
+				3F3C58D8192314BC005D9A8B /* NSString+Helpers.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3F3C58DB192314BC005D9A8B /* INKActivityViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C58DC192314BC005D9A8B /* INKActivityCell.h */,
+				3F3C58DD192314BC005D9A8B /* INKActivityCell.m */,
+				3F3C58DE192314BC005D9A8B /* INKActivityPresenter.h */,
+				3F3C58DF192314BC005D9A8B /* INKActivityPresenter.m */,
+				3F3C58E0192314BC005D9A8B /* INKActivityViewController.h */,
+				3F3C58E1192314BC005D9A8B /* INKActivityViewController.m */,
+			);
+			path = INKActivityViewController;
+			sourceTree = "<group>";
+		};
+		3F3C58E8192314BC005D9A8B /* INKDefaultsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C58E9192314BC005D9A8B /* INKDefaultsCell.h */,
+				3F3C58EA192314BC005D9A8B /* INKDefaultsCell.m */,
+				3F3C58EB192314BC005D9A8B /* INKDefaultsViewController.h */,
+				3F3C58EC192314BC005D9A8B /* INKDefaultsViewController.m */,
+			);
+			path = INKDefaultsViewController;
+			sourceTree = "<group>";
+		};
+		3F3C58F8192314BC005D9A8B /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C58F9192314BC005D9A8B /* INKBrowserHandler.h */,
+				3F3C58FA192314BC005D9A8B /* INKBrowserHandler.m */,
+				3F3C58FB192314BC005D9A8B /* INKFacebookHandler.h */,
+				3F3C58FC192314BC005D9A8B /* INKFacebookHandler.m */,
+				3F3C58FD192314BC005D9A8B /* INKGPlusHandler.h */,
+				3F3C58FE192314BC005D9A8B /* INKGPlusHandler.m */,
+				3F3C58FF192314BC005D9A8B /* INKMailHandler.h */,
+				3F3C5900192314BC005D9A8B /* INKMailHandler.m */,
+				3F3C5901192314BC005D9A8B /* INKMapsHandler.h */,
+				3F3C5902192314BC005D9A8B /* INKMapsHandler.m */,
+				3F3C5903192314BC005D9A8B /* INKTwitterHandler.h */,
+				3F3C5904192314BC005D9A8B /* INKTwitterHandler.m */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		3F3C5905192314BC005D9A8B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C5906192314BC005D9A8B /* back.png */,
+				3F3C5907192314BC005D9A8B /* back@2x.png */,
+				3F3C5908192314BC005D9A8B /* forward.png */,
+				3F3C5909192314BC005D9A8B /* forward@2x.png */,
+				3F3C590A192314BC005D9A8B /* iconBorder.png */,
+				3F3C590B192314BC005D9A8B /* iconBorder@2x.png */,
+				3F3C590C192314BC005D9A8B /* iconBorder@2x~ipad.png */,
+				3F3C590D192314BC005D9A8B /* iconBorder~ipad.png */,
+				3F3C590E192314BC005D9A8B /* iconMask.png */,
+				3F3C590F192314BC005D9A8B /* iconMask@2x.png */,
+				3F3C5910192314BC005D9A8B /* iconMask@2x~ipad.png */,
+				3F3C5911192314BC005D9A8B /* iconMask~ipad.png */,
+				3F3C5912192314BC005D9A8B /* share.png */,
+				3F3C5913192314BC005D9A8B /* share@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3F3C5995192316EC005D9A8B /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C59961923173D005D9A8B /* MWLayoutHelpers */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		3F3C59961923173D005D9A8B /* MWLayoutHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C59971923174D005D9A8B /* UIView+MWLayoutHelpers.h */,
+				3F3C59981923174D005D9A8B /* UIView+MWLayoutHelpers.m */,
+			);
+			name = MWLayoutHelpers;
+			sourceTree = "<group>";
+		};
+		3F3C599A1923198B005D9A8B /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C585C19231498005D9A8B /* INKAppDelegate.h */,
+				3F3C585E19231498005D9A8B /* INKViewController.h */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+		3F3C599B192319A1005D9A8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C585919231498005D9A8B /* InfoPlist.strings */,
+				3F3C585B19231498005D9A8B /* Images.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -444,17 +1154,118 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3C591E192314BC005D9A8B /* Chrome@2x.png in Resources */,
+				3F3C591F192314BC005D9A8B /* Chrome@2x~ipad.png in Resources */,
 				3F3C58241922F2E9005D9A8B /* Background5.png in Resources */,
+				3F3C595A192314BC005D9A8B /* Safari.png in Resources */,
+				3F3C592A192314BC005D9A8B /* Facebook@2x~ipad.png in Resources */,
+				3F3C5953192314BC005D9A8B /* Mail~ipad.png in Resources */,
+				3F3C592D192314BC005D9A8B /* Gmail.png in Resources */,
+				3F3C5927192314BC005D9A8B /* Facebook.plist in Resources */,
+				3F3C5931192314BC005D9A8B /* Google Maps.plist in Resources */,
+				3F3C586319231498005D9A8B /* InfoPlist.strings in Resources */,
+				3F3C5926192314BC005D9A8B /* INKTwitterHandler.plist in Resources */,
+				3F3C5944192314BC005D9A8B /* INKTweetSheet@2x.png in Resources */,
+				3F3C598F192314BC005D9A8B /* share@2x.png in Resources */,
+				3F3C5948192314BC005D9A8B /* INKWebView.plist in Resources */,
+				3F3C5955192314BC005D9A8B /* Maps.png in Resources */,
+				3F3C5956192314BC005D9A8B /* Maps@2x.png in Resources */,
+				3F3C5942192314BC005D9A8B /* INKTweetSheet.plist in Resources */,
+				3F3C596A192314BC005D9A8B /* Twitterrific@2x.png in Resources */,
+				3F3C5922192314BC005D9A8B /* INKFacebookHandler.plist in Resources */,
+				3F3C595D192314BC005D9A8B /* Safari~ipad.png in Resources */,
+				3F3C598C192314BC005D9A8B /* iconMask@2x~ipad.png in Resources */,
+				3F3C5928192314BC005D9A8B /* Facebook.png in Resources */,
+				3F3C594F192314BC005D9A8B /* Mail.plist in Resources */,
+				3F3C598E192314BC005D9A8B /* share.png in Resources */,
+				3F3C5990192314BC005D9A8B /* IntentKit-Info.plist in Resources */,
+				3F3C5917192314BC005D9A8B /* 1Password.plist in Resources */,
+				3F3C592F192314BC005D9A8B /* Gmail@2x~ipad.png in Resources */,
+				3F3C5989192314BC005D9A8B /* iconBorder~ipad.png in Resources */,
+				3F3C5923192314BC005D9A8B /* INKGPlusHandler.plist in Resources */,
+				3F3C592C192314BC005D9A8B /* Gmail.plist in Resources */,
+				3F3C5936192314BC005D9A8B /* Google+.plist in Resources */,
+				3F3C5967192314BC005D9A8B /* Twitter~ipad.png in Resources */,
+				3F3C5952192314BC005D9A8B /* Mail@2x~ipad.png in Resources */,
 				3F3C58191922B90D005D9A8B /* Background2.png in Resources */,
+				3F3C5984192314BC005D9A8B /* forward.png in Resources */,
+				3F3C5982192314BC005D9A8B /* back.png in Resources */,
+				3F3C595F192314BC005D9A8B /* Tweetbot.png in Resources */,
+				3F3C5937192314BC005D9A8B /* Google+.png in Resources */,
+				3F3C595B192314BC005D9A8B /* Safari@2x.png in Resources */,
+				3F3C594A192314BC005D9A8B /* INKWebView@2x.png in Resources */,
+				3F3C593E192314BC005D9A8B /* INKMailSheet@2x.png in Resources */,
+				3F3C598B192314BC005D9A8B /* iconMask@2x.png in Resources */,
+				3F3C5933192314BC005D9A8B /* Google Maps@2x.png in Resources */,
+				3F3C5964192314BC005D9A8B /* Twitter.png in Resources */,
+				3F3C5919192314BC005D9A8B /* 1Password@2x.png in Resources */,
+				3F3C592B192314BC005D9A8B /* Facebook~ipad.png in Resources */,
+				3F3C595E192314BC005D9A8B /* Tweetbot.plist in Resources */,
+				3F3C5939192314BC005D9A8B /* Google+@2x~ipad.png in Resources */,
+				3F3C5961192314BC005D9A8B /* Tweetbot@2x~ipad.png in Resources */,
+				3F3C5988192314BC005D9A8B /* iconBorder@2x~ipad.png in Resources */,
+				3F3C591B192314BC005D9A8B /* 1Password~ipad.png in Resources */,
+				3F3C58571923141B005D9A8B /* IntentScreenShot.png in Resources */,
+				3F3C5949192314BC005D9A8B /* INKWebView.png in Resources */,
+				3F3C591A192314BC005D9A8B /* 1Password@2x~ipad.png in Resources */,
+				3F3C5950192314BC005D9A8B /* Mail.png in Resources */,
+				3F3C5920192314BC005D9A8B /* Chrome~ipad.png in Resources */,
+				3F3C5938192314BC005D9A8B /* Google+@2x.png in Resources */,
+				3F3C5985192314BC005D9A8B /* forward@2x.png in Resources */,
+				3F3C593D192314BC005D9A8B /* INKMailSheet.png in Resources */,
+				3F3C593A192314BC005D9A8B /* Google+~ipad.png in Resources */,
 				3F3C58511922FC9B005D9A8B /* RESideMenuScreenShot.png in Resources */,
+				3F3C5934192314BC005D9A8B /* Google Maps@2x~ipad.png in Resources */,
+				3F3C5960192314BC005D9A8B /* Tweetbot@2x.png in Resources */,
+				3F3C5958192314BC005D9A8B /* Maps~ipad.png in Resources */,
+				3F3C5954192314BC005D9A8B /* Maps.plist in Resources */,
+				3F3C593C192314BC005D9A8B /* INKMailSheet.plist in Resources */,
+				3F3C5983192314BC005D9A8B /* back@2x.png in Resources */,
+				3F3C5929192314BC005D9A8B /* Facebook@2x.png in Resources */,
+				3F3C5969192314BC005D9A8B /* Twitterrific.png in Resources */,
+				3F3C5962192314BC005D9A8B /* Tweetbot~ipad.png in Resources */,
+				3F3C598D192314BC005D9A8B /* iconMask~ipad.png in Resources */,
 				3F3C58111922A6EF005D9A8B /* Emma.png in Resources */,
+				3F3C586419231498005D9A8B /* Images.xcassets in Resources */,
+				3F3C595C192314BC005D9A8B /* Safari@2x~ipad.png in Resources */,
+				3F3C596C192314BC005D9A8B /* Twitterrific~ipad.png in Resources */,
+				3F3C594E192314BC005D9A8B /* IntentKitBundle-Info.plist in Resources */,
 				3F3C58171922B90D005D9A8B /* Background.png in Resources */,
 				3F3C583C1922F75D005D9A8B /* Images.xcassets in Resources */,
+				3F3C5935192314BC005D9A8B /* Google Maps~ipad.png in Resources */,
+				3F3C5968192314BC005D9A8B /* Twitterrific.plist in Resources */,
+				3F3C593F192314BC005D9A8B /* INKMailSheet@2x~ipad.png in Resources */,
+				3F3C591D192314BC005D9A8B /* Chrome.png in Resources */,
+				3F3C594B192314BC005D9A8B /* INKWebView@2x~ipad.png in Resources */,
 				3F3C57D719229C1B005D9A8B /* InfoPlist.strings in Resources */,
+				3F3C598A192314BC005D9A8B /* iconMask.png in Resources */,
+				3F3C5986192314BC005D9A8B /* iconBorder.png in Resources */,
+				3F3C5991192314BC005D9A8B /* IntentKit-Localizations.bundle in Resources */,
+				3F3C5963192314BC005D9A8B /* Twitter.plist in Resources */,
+				3F3C5921192314BC005D9A8B /* INKBrowserHandler.plist in Resources */,
 				3F3C57DF19229C1B005D9A8B /* Images.xcassets in Resources */,
+				3F3C5946192314BC005D9A8B /* INKTweetSheet~ipad.png in Resources */,
+				3F3C594D192314BC005D9A8B /* INKWebView~ipad.png in Resources */,
 				3F3C58221922F2E9005D9A8B /* Background3.png in Resources */,
+				3F3C5930192314BC005D9A8B /* Gmail~ipad.png in Resources */,
+				3F3C5943192314BC005D9A8B /* INKTweetSheet.png in Resources */,
+				3F3C5918192314BC005D9A8B /* 1Password.png in Resources */,
+				3F3C5932192314BC005D9A8B /* Google Maps.png in Resources */,
+				3F3C5925192314BC005D9A8B /* INKMapsHandler.plist in Resources */,
+				3F3C596B192314BC005D9A8B /* Twitterrific@2x~ipad.png in Resources */,
+				3F3C5966192314BC005D9A8B /* Twitter@2x~ipad.png in Resources */,
 				3F3C58231922F2E9005D9A8B /* Background4.png in Resources */,
+				3F3C5957192314BC005D9A8B /* Maps@2x~ipad.png in Resources */,
+				3F3C5959192314BC005D9A8B /* Safari.plist in Resources */,
+				3F3C5965192314BC005D9A8B /* Twitter@2x.png in Resources */,
+				3F3C592E192314BC005D9A8B /* Gmail@2x.png in Resources */,
+				3F3C5940192314BC005D9A8B /* INKMailSheet~ipad.png in Resources */,
+				3F3C5951192314BC005D9A8B /* Mail@2x.png in Resources */,
 				3F3C58181922B90D005D9A8B /* Background1.png in Resources */,
+				3F3C5924192314BC005D9A8B /* INKMailHandler.plist in Resources */,
+				3F3C5945192314BC005D9A8B /* INKTweetSheet@2x~ipad.png in Resources */,
+				3F3C5987192314BC005D9A8B /* iconBorder@2x.png in Resources */,
+				3F3C591C192314BC005D9A8B /* Chrome.plist in Resources */,
 				3F3C583B1922F75D005D9A8B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,22 +1285,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3C5981192314BC005D9A8B /* INKTwitterHandler.m in Sources */,
 				3F3C57FD19229DCB005D9A8B /* HomeVC.m in Sources */,
+				3F3C593B192314BC005D9A8B /* INKMailSheet.m in Sources */,
+				3F3C597D192314BC005D9A8B /* INKFacebookHandler.m in Sources */,
+				3F3C597E192314BC005D9A8B /* INKGPlusHandler.m in Sources */,
+				3F3C59991923174D005D9A8B /* UIView+MWLayoutHelpers.m in Sources */,
+				3F3C5947192314BC005D9A8B /* INKWebView.m in Sources */,
 				3F3C584A1922F800005D9A8B /* RECommonFunctions.m in Sources */,
+				3F3C5974192314BC005D9A8B /* INKDefaultsManager.m in Sources */,
 				3F3C58381922F75D005D9A8B /* DEMOLeftMenuViewController.m in Sources */,
+				3F3C596F192314BC005D9A8B /* INKActivityCell.m in Sources */,
+				3F3C5971192314BC005D9A8B /* INKActivityViewController.m in Sources */,
 				3F3C584F1922F9AD005D9A8B /* DemoRESideMenu.m in Sources */,
 				3F3C58071922A062005D9A8B /* DemoCollectionVC.m in Sources */,
+				3F3C597A192314BC005D9A8B /* INKOpenInActivity.m in Sources */,
+				3F3C596E192314BC005D9A8B /* INKActivity.m in Sources */,
 				3F3C581C1922BC09005D9A8B /* BackgroundVC.m in Sources */,
+				3F3C5994192314D2005D9A8B /* DemoIntent.m in Sources */,
+				3F3C5973192314BC005D9A8B /* INKApplicationList.m in Sources */,
 				3F3C57DD19229C1B005D9A8B /* AppDelegate.m in Sources */,
+				3F3C596D192314BC005D9A8B /* NSString+Helpers.m in Sources */,
+				3F3C5970192314BC005D9A8B /* INKActivityPresenter.m in Sources */,
+				3F3C586519231498005D9A8B /* INKAppDelegate.m in Sources */,
 				3F3C58051922A062005D9A8B /* DemoCell.m in Sources */,
+				3F3C586619231498005D9A8B /* INKViewController.m in Sources */,
+				3F3C5977192314BC005D9A8B /* INKDefaultToggleView.m in Sources */,
+				3F3C5980192314BC005D9A8B /* INKMapsHandler.m in Sources */,
 				3F3C580E1922A391005D9A8B /* EmmaApp.m in Sources */,
+				3F3C5975192314BC005D9A8B /* INKDefaultsCell.m in Sources */,
+				3F3C5978192314BC005D9A8B /* INKHandler.m in Sources */,
 				3F3C584B1922F800005D9A8B /* RESideMenu.m in Sources */,
+				3F3C5979192314BC005D9A8B /* INKLocalizedString.m in Sources */,
+				3F3C597B192314BC005D9A8B /* IntentKit.m in Sources */,
+				3F3C5976192314BC005D9A8B /* INKDefaultsViewController.m in Sources */,
 				3F3C57D919229C1B005D9A8B /* main.m in Sources */,
+				3F3C594C192314BC005D9A8B /* INKWebViewController.m in Sources */,
 				3F3C58361922F75D005D9A8B /* DEMOAppDelegate.m in Sources */,
 				3F3C583A1922F75D005D9A8B /* DEMOSecondViewController.m in Sources */,
+				3F3C597F192314BC005D9A8B /* INKMailHandler.m in Sources */,
+				3F3C5972192314BC005D9A8B /* INKAppIconView.m in Sources */,
+				3F3C597C192314BC005D9A8B /* INKBrowserHandler.m in Sources */,
 				3F3C58371922F75D005D9A8B /* DEMOFirstViewController.m in Sources */,
 				3F3C58061922A062005D9A8B /* DemoCollectionLayout.m in Sources */,
 				3F3C58391922F75D005D9A8B /* DEMORightMenuViewController.m in Sources */,
+				3F3C5941192314BC005D9A8B /* INKTweetSheet.m in Sources */,
 				3F3C584C1922F800005D9A8B /* UIViewController+RESideMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -533,6 +1373,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				3F3C58311922F75D005D9A8B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F3C585919231498005D9A8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3C585A19231498005D9A8B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -619,6 +1467,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS8/iOS8-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../**",
+				);
 				INFOPLIST_FILE = "iOS8/iOS8-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -632,6 +1485,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS8/iOS8-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../**",
+				);
 				INFOPLIST_FILE = "iOS8/iOS8-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

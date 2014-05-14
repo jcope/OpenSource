@@ -1,3 +1,9 @@
 [submodule "iOS8/Demos/RESideMenu"]
 	path = iOS8/Demos/RESideMenu
 	url = https://github.com/romaonthego/RESideMenu.git
+[submodule "iOS8/Demos/IntentKit"]
+	path = iOS8/Demos/IntentKit
+	url = https://github.com/intentkit/IntentKit.git
+[submodule "iOS8/Dependencies/MWLayoutHelpers"]
+	path = iOS8/Dependencies/MWLayoutHelpers
+	url = https://github.com/lazerwalker/MWLayoutHelpers.git
