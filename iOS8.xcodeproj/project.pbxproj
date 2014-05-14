@@ -28,6 +28,10 @@
 		3F3C58171922B90D005D9A8B /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58141922B90D005D9A8B /* Background.png */; };
 		3F3C58181922B90D005D9A8B /* Background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58151922B90D005D9A8B /* Background1.png */; };
 		3F3C58191922B90D005D9A8B /* Background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58161922B90D005D9A8B /* Background2.png */; };
+		3F3C581C1922BC09005D9A8B /* BackgroundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C581B1922BC09005D9A8B /* BackgroundVC.m */; };
+		3F3C58221922F2E9005D9A8B /* Background3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C581F1922F2E9005D9A8B /* Background3.png */; };
+		3F3C58231922F2E9005D9A8B /* Background4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58201922F2E9005D9A8B /* Background4.png */; };
+		3F3C58241922F2E9005D9A8B /* Background5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58211922F2E9005D9A8B /* Background5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +77,11 @@
 		3F3C58141922B90D005D9A8B /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background.png; path = Media/Background.png; sourceTree = "<group>"; };
 		3F3C58151922B90D005D9A8B /* Background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background1.png; path = Media/Background1.png; sourceTree = "<group>"; };
 		3F3C58161922B90D005D9A8B /* Background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background2.png; path = Media/Background2.png; sourceTree = "<group>"; };
+		3F3C581A1922BC09005D9A8B /* BackgroundVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundVC.h; sourceTree = "<group>"; };
+		3F3C581B1922BC09005D9A8B /* BackgroundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundVC.m; sourceTree = "<group>"; };
+		3F3C581F1922F2E9005D9A8B /* Background3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background3.png; path = Media/Background3.png; sourceTree = "<group>"; };
+		3F3C58201922F2E9005D9A8B /* Background4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background4.png; path = Media/Background4.png; sourceTree = "<group>"; };
+		3F3C58211922F2E9005D9A8B /* Background5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background5.png; path = Media/Background5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,17 +141,14 @@
 		3F3C57D219229C1B005D9A8B /* iOS8 */ = {
 			isa = PBXGroup;
 			children = (
-				3F3C58131922B903005D9A8B /* Media */,
-				3F3C58121922ACAA005D9A8B /* Config.h */,
-				3F3C580A1922A354005D9A8B /* Demo */,
-				3F3C57FE19229ED9005D9A8B /* DemoDisplay */,
-				3F3C57DB19229C1B005D9A8B /* AppDelegate.h */,
-				3F3C57DC19229C1B005D9A8B /* AppDelegate.m */,
-				3F3C57DE19229C1B005D9A8B /* Images.xcassets */,
 				3F3C57D319229C1B005D9A8B /* Supporting Files */,
-				3F3C57FB19229DCB005D9A8B /* HomeVC.h */,
+				3F3C58131922B903005D9A8B /* Media */,
+				3F3C581E1922EC34005D9A8B /* Header */,
+				3F3C580A1922A354005D9A8B /* Demos */,
+				3F3C57FE19229ED9005D9A8B /* DemoDisplay */,
+				3F3C57DC19229C1B005D9A8B /* AppDelegate.m */,
 				3F3C57FC19229DCB005D9A8B /* HomeVC.m */,
-				3F3C58091922A2BA005D9A8B /* DemoApp.h */,
+				3F3C581B1922BC09005D9A8B /* BackgroundVC.m */,
 			);
 			path = iOS8;
 			sourceTree = "<group>";
@@ -197,12 +203,13 @@
 			name = Header;
 			sourceTree = "<group>";
 		};
-		3F3C580A1922A354005D9A8B /* Demo */ = {
+		3F3C580A1922A354005D9A8B /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				3F3C58091922A2BA005D9A8B /* DemoApp.h */,
 				3F3C580B1922A372005D9A8B /* Emma */,
 			);
-			name = Demo;
+			name = Demos;
 			sourceTree = "<group>";
 		};
 		3F3C580B1922A372005D9A8B /* Emma */ = {
@@ -226,11 +233,34 @@
 		3F3C58131922B903005D9A8B /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				3F3C57DE19229C1B005D9A8B /* Images.xcassets */,
+				3F3C581D1922CCC3005D9A8B /* Background */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		3F3C581D1922CCC3005D9A8B /* Background */ = {
+			isa = PBXGroup;
+			children = (
 				3F3C58141922B90D005D9A8B /* Background.png */,
 				3F3C58151922B90D005D9A8B /* Background1.png */,
 				3F3C58161922B90D005D9A8B /* Background2.png */,
+				3F3C581F1922F2E9005D9A8B /* Background3.png */,
+				3F3C58201922F2E9005D9A8B /* Background4.png */,
+				3F3C58211922F2E9005D9A8B /* Background5.png */,
 			);
-			name = Media;
+			name = Background;
+			sourceTree = "<group>";
+		};
+		3F3C581E1922EC34005D9A8B /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C58121922ACAA005D9A8B /* Config.h */,
+				3F3C57DB19229C1B005D9A8B /* AppDelegate.h */,
+				3F3C57FB19229DCB005D9A8B /* HomeVC.h */,
+				3F3C581A1922BC09005D9A8B /* BackgroundVC.h */,
+			);
+			name = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,11 +338,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3C58241922F2E9005D9A8B /* Background5.png in Resources */,
 				3F3C58191922B90D005D9A8B /* Background2.png in Resources */,
 				3F3C58111922A6EF005D9A8B /* Emma.png in Resources */,
 				3F3C58171922B90D005D9A8B /* Background.png in Resources */,
 				3F3C57D719229C1B005D9A8B /* InfoPlist.strings in Resources */,
 				3F3C57DF19229C1B005D9A8B /* Images.xcassets in Resources */,
+				3F3C58221922F2E9005D9A8B /* Background3.png in Resources */,
+				3F3C58231922F2E9005D9A8B /* Background4.png in Resources */,
 				3F3C58181922B90D005D9A8B /* Background1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +367,7 @@
 			files = (
 				3F3C57FD19229DCB005D9A8B /* HomeVC.m in Sources */,
 				3F3C58071922A062005D9A8B /* DemoCollectionVC.m in Sources */,
+				3F3C581C1922BC09005D9A8B /* BackgroundVC.m in Sources */,
 				3F3C57DD19229C1B005D9A8B /* AppDelegate.m in Sources */,
 				3F3C58051922A062005D9A8B /* DemoCell.m in Sources */,
 				3F3C580E1922A391005D9A8B /* EmmaApp.m in Sources */,

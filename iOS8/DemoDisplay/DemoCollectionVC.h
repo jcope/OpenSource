@@ -10,5 +10,5 @@
 
 @interface DemoCollectionVC : UICollectionViewController <UICollectionViewDelegate>
 
--(id)initWithDemoArray:(NSArray*)demoArray;
+-(id)initWithHomeVC:(UIViewController*)homeVC demoArray:(NSArray*)demoArray;
 @end

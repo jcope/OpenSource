@@ -11,14 +11,19 @@
 #import "DemoCell.h"
 
 @interface DemoCollectionVC ()
+@property (strong) id currentApp;
+@property (strong) UIButton* closeButton;
+@property (strong) UIViewController* homeVC;
 @property (strong) NSArray* demoArray;
 @end
 
 @implementation DemoCollectionVC
 
--(id)initWithDemoArray:(NSArray*)demoArray{
+-(id)initWithHomeVC:(UIViewController*)homeVC demoArray:(NSArray*)demoArray{
     //Store the data
+    _homeVC = homeVC;
     _demoArray = demoArray;
+    [self createCloseButton];
     DemoCollectionLayout* layout = [[DemoCollectionLayout alloc] init];
     return [self initWithCollectionViewLayout:layout];
 }
@@ -67,6 +72,7 @@
     
     return cell;
 }
+
 - (CGSize)collectionView:(UICollectionView *)collectionView
                   layout:(UICollectionViewLayout*)collectionViewLayout
   sizeForItemAtIndexPath:(NSIndexPath *)indexPath
@@ -78,5 +84,36 @@
     CGFloat cellWidth = SCREEN_WIDTH-(2*xInit);
     
     return CGSizeMake(cellWidth, 75);
+}
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    //Grab the demo at index
+    
+    id demoApp = _demoArray[indexPath.row];
+    if ([demoApp respondsToSelector:@selector(launchAppFromViewController:)]) {
+        //Launch Demo App
+        _currentApp = demoApp;
+        [_currentApp launchAppFromViewController:_homeVC];
+        //Overlay a close button
+        [_homeVC.view addSubview:_closeButton];
+    }
+}
+-(void)createCloseButton{
+    CGFloat buttonWidth = 50;
+    _closeButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [_closeButton setTitle:@"Close" forState:UIControlStateNormal];
+    [_closeButton.titleLabel setFont:[UIFont fontWithName:@"HelveticaNeue-Light" size:17]];
+    [_closeButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [_closeButton setTitleColor:[UIColor darkGrayColor] forState:UIControlStateHighlighted];
+    [_closeButton setFrame:CGRectMake(SCREEN_WIDTH-buttonWidth-10,25,buttonWidth,30)];
+    [_closeButton setBackgroundColor:[[UIColor whiteColor] colorWithAlphaComponent:0.75]];
+    [_closeButton.layer setCornerRadius:10];
+    [_closeButton addTarget:self action:@selector(closeAction) forControlEvents:UIControlEventTouchUpInside];
+}
+-(void)closeAction{
+    if ([_currentApp respondsToSelector:@selector(closeApp)]) {
+        [_currentApp closeApp];
+    }
+    //Fade out Close Button
+    [_closeButton removeFromSuperview];
 }
 @end

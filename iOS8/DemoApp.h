@@ -14,4 +14,5 @@
 -(NSString*)appDetail;
 -(UIImage*)appImage;
 -(BOOL)launchAppFromViewController:(UIViewController*)viewController;
+-(void)closeApp;
 @end
