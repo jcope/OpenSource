@@ -9,48 +9,47 @@
 #import "HomeVC.h"
 #import "DemoCollectionVC.h"
 #import "BackgroundVC.h"
-//Import your Demo
-#import "EmmaApp.h"
-#import "DemoRESideMenu.h"
-#import "DemoIntent.h"
-#import "DemoMWPhotoBrowser.h"
+
 
 @interface HomeVC ()
 //Data
-@property NSMutableArray* demoArray;
+@property UINavigationController* demoNC;
 //View
 @property BackgroundVC* backgroundVC;
 @property DemoCollectionVC* demoCollection;
-
 @end
 
 @implementation HomeVC
 
-- (id)init{
+#pragma mark Init
+- (id)initWithDemoNC:(UINavigationController*)nav
+        demoAppArray:(NSArray *)appArray{
     if (self = [super init]) {
-        _demoArray = [NSMutableArray arrayWithCapacity:20];
+        //Store the DemoNavController
+        _demoNC = nav;
+        
+        //Create the background annimation view
         _backgroundVC = [[BackgroundVC alloc] init];
         [self.view addSubview:_backgroundVC.view];
         
-        //Initialize and Add Demo App Here
-        [_demoArray addObject:[[EmmaApp alloc] init]];
-        [_demoArray addObject:[[DemoRESideMenu alloc] init]];
-        [_demoArray addObject:[[DemoIntent alloc] init]];
-        [_demoArray addObject:[[DemoMWPhotoBrowser alloc]init]];
-        
-        //Create the Demo Collection
-        _demoCollection = [[DemoCollectionVC alloc] initWithHomeVC:self
-                                                         demoArray:_demoArray];
+        //Create the Demo CollectionView
+        _demoCollection = [[DemoCollectionVC alloc] initWithDemoNC:nav
+                                                         demoArray:appArray];
         [_demoCollection.view setAlpha:0.0];
         [self.view addSubview:_demoCollection.view];
     }
     return self;
 }
--(void)viewWillAppear:(BOOL)animated{
-    NSLog(@"Load view into memory..");
-    //Setup the Background
+#pragma mark View Delegates
+-(void)viewDidLoad{
+    //Start the Background
     [_backgroundVC setupWithCompletion:^void{[self homeStart];}];
 }
+-(void)viewDidAppear:(BOOL)animated{
+    //Hide the Navigation Contoller on this view
+    [_demoNC setNavigationBarHidden:YES animated:YES];
+}
+#pragma mark - Home Annimation
 -(void)homeStart{
     //Fade in Collection View
     [UIView animateWithDuration:1.0 animations:^{

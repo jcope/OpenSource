@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DemoNC.h"
 #import "HomeVC.h"
 @implementation AppDelegate
 
@@ -14,9 +15,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    //Launch the Home View Controller with acess to the demo collection
-    HomeVC* homeVC = [[HomeVC alloc] init];
-    [self.window setRootViewController:homeVC];
+    //Launch the Demo Navigation
+    //This creates the Demo Apps and the Home View for presentation
+    DemoNC* navigation = [[DemoNC alloc] init];
+    
+    [self.window setRootViewController:navigation];
     
     [self.window makeKeyAndVisible];
     return YES;

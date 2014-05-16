@@ -10,9 +10,12 @@
 
 @protocol DemoApp <NSObject>
 @required
+//Demo Collection View Cell Information
 -(NSString*)appName;
 -(NSString*)appDetail;
 -(UIImage*)appImage;
--(BOOL)launchAppFromViewController:(UIViewController*)viewController;
--(void)closeApp;
+//The View Controller which will be pushed via the NavigationController to start the demo
+-(UIViewController*)mainViewController;
+@optional
+-(void)appWillClose;
 @end

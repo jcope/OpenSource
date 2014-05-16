@@ -10,4 +10,7 @@
 
 @interface HomeVC : UIViewController
 
+- (id)initWithDemoNC:(UINavigationController*)nav
+        demoAppArray:(NSArray*)appArray;
+
 @end

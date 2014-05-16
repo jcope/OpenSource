@@ -45,7 +45,6 @@
 		3F3C584F1922F9AD005D9A8B /* DemoRESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C584E1922F9AD005D9A8B /* DemoRESideMenu.m */; };
 		3F3C58511922FC9B005D9A8B /* RESideMenuScreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58501922FC9B005D9A8B /* RESideMenuScreenShot.png */; };
 		3F3C58571923141B005D9A8B /* IntentScreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C58561923141B005D9A8B /* IntentScreenShot.png */; };
-		3F3C586319231498005D9A8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C585919231498005D9A8B /* InfoPlist.strings */; };
 		3F3C586419231498005D9A8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C585B19231498005D9A8B /* Images.xcassets */; };
 		3F3C586519231498005D9A8B /* INKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C585D19231498005D9A8B /* INKAppDelegate.m */; };
 		3F3C586619231498005D9A8B /* INKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C585F19231498005D9A8B /* INKViewController.m */; };
@@ -235,6 +234,8 @@
 		3F3C5A5019232E8C005D9A8B /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C5A2D19232E8C005D9A8B /* UIImage+WebP.m */; };
 		3F3C5A5119232E8C005D9A8B /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3C5A2F19232E8C005D9A8B /* UIImageView+WebCache.m */; };
 		3F3C5A5219232E8C005D9A8B /* MWPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5A3019232E8C005D9A8B /* MWPhotoBrowser.bundle */; };
+		3F5CACCF192562BC00EB7603 /* DemoNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CACCE192562BC00EB7603 /* DemoNC.m */; };
+		3F5CACD21926A8D700EB7603 /* DemoNC+Apps.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CACD11926A8D700EB7603 /* DemoNC+Apps.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -308,7 +309,6 @@
 		3F3C584E1922F9AD005D9A8B /* DemoRESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoRESideMenu.m; path = iOS8/Demos/RESideMenu/DemoRESideMenu.m; sourceTree = SOURCE_ROOT; };
 		3F3C58501922FC9B005D9A8B /* RESideMenuScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RESideMenuScreenShot.png; path = iOS8/Demos/RESideMenu/RESideMenuScreenShot.png; sourceTree = SOURCE_ROOT; };
 		3F3C58561923141B005D9A8B /* IntentScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IntentScreenShot.png; path = Demos/IntentKit/IntentScreenShot.png; sourceTree = "<group>"; };
-		3F3C585A19231498005D9A8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F3C585B19231498005D9A8B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3F3C585C19231498005D9A8B /* INKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKAppDelegate.h; sourceTree = "<group>"; };
 		3F3C585D19231498005D9A8B /* INKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKAppDelegate.m; sourceTree = "<group>"; };
@@ -575,6 +575,10 @@
 		3F3C5A2E19232E8C005D9A8B /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
 		3F3C5A2F19232E8C005D9A8B /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		3F3C5A3019232E8C005D9A8B /* MWPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MWPhotoBrowser.bundle; path = Demos/MWPhotoBrowser/MWPhotoBrowser/MWPhotoBrowser.bundle; sourceTree = "<group>"; };
+		3F5CACCD192562BC00EB7603 /* DemoNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoNC.h; sourceTree = "<group>"; };
+		3F5CACCE192562BC00EB7603 /* DemoNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoNC.m; sourceTree = "<group>"; };
+		3F5CACD01926A8D700EB7603 /* DemoNC+Apps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DemoNC+Apps.h"; sourceTree = "<group>"; };
+		3F5CACD11926A8D700EB7603 /* DemoNC+Apps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DemoNC+Apps.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -639,10 +643,10 @@
 				3F3C58131922B903005D9A8B /* Media */,
 				3F3C581E1922EC34005D9A8B /* Header */,
 				3F3C580A1922A354005D9A8B /* Demos */,
-				3F3C57FE19229ED9005D9A8B /* DemoDisplay */,
+				3F5CACD31926AB6600EB7603 /* Home */,
 				3F3C57DC19229C1B005D9A8B /* AppDelegate.m */,
-				3F3C57FC19229DCB005D9A8B /* HomeVC.m */,
-				3F3C581B1922BC09005D9A8B /* BackgroundVC.m */,
+				3F5CACCE192562BC00EB7603 /* DemoNC.m */,
+				3F5CACD11926A8D700EB7603 /* DemoNC+Apps.m */,
 			);
 			path = iOS8;
 			sourceTree = "<group>";
@@ -676,23 +680,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3F3C57FE19229ED9005D9A8B /* DemoDisplay */ = {
+		3F3C57FE19229ED9005D9A8B /* Demo CollectionView */ = {
 			isa = PBXGroup;
 			children = (
 				3F3C58081922A065005D9A8B /* Header */,
-				3F3C58001922A062005D9A8B /* DemoCell.m */,
-				3F3C58021922A062005D9A8B /* DemoCollectionLayout.m */,
 				3F3C58041922A062005D9A8B /* DemoCollectionVC.m */,
+				3F3C58021922A062005D9A8B /* DemoCollectionLayout.m */,
+				3F3C58001922A062005D9A8B /* DemoCell.m */,
 			);
-			name = DemoDisplay;
+			name = "Demo CollectionView";
 			sourceTree = "<group>";
 		};
 		3F3C58081922A065005D9A8B /* Header */ = {
 			isa = PBXGroup;
 			children = (
-				3F3C57FF1922A062005D9A8B /* DemoCell.h */,
-				3F3C58011922A062005D9A8B /* DemoCollectionLayout.h */,
 				3F3C58031922A062005D9A8B /* DemoCollectionVC.h */,
+				3F3C58011922A062005D9A8B /* DemoCollectionLayout.h */,
+				3F3C57FF1922A062005D9A8B /* DemoCell.h */,
 			);
 			name = Header;
 			sourceTree = "<group>";
@@ -754,8 +758,8 @@
 			children = (
 				3F3C58121922ACAA005D9A8B /* Config.h */,
 				3F3C57DB19229C1B005D9A8B /* AppDelegate.h */,
-				3F3C57FB19229DCB005D9A8B /* HomeVC.h */,
-				3F3C581A1922BC09005D9A8B /* BackgroundVC.h */,
+				3F5CACCD192562BC00EB7603 /* DemoNC.h */,
+				3F5CACD01926A8D700EB7603 /* DemoNC+Apps.h */,
 			);
 			name = Header;
 			sourceTree = "<group>";
@@ -1242,7 +1246,6 @@
 		3F3C599B192319A1005D9A8B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3F3C585919231498005D9A8B /* InfoPlist.strings */,
 				3F3C585B19231498005D9A8B /* Images.xcassets */,
 			);
 			name = "Supporting Files";
@@ -1445,6 +1448,26 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		3F5CACD31926AB6600EB7603 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3F5CACD41926AB7000EB7603 /* Header */,
+				3F3C57FC19229DCB005D9A8B /* HomeVC.m */,
+				3F3C581B1922BC09005D9A8B /* BackgroundVC.m */,
+				3F3C57FE19229ED9005D9A8B /* Demo CollectionView */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		3F5CACD41926AB7000EB7603 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C57FB19229DCB005D9A8B /* HomeVC.h */,
+				3F3C581A1922BC09005D9A8B /* BackgroundVC.h */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1529,7 +1552,6 @@
 				3F3C592D192314BC005D9A8B /* Gmail.png in Resources */,
 				3F3C5927192314BC005D9A8B /* Facebook.plist in Resources */,
 				3F3C5931192314BC005D9A8B /* Google Maps.plist in Resources */,
-				3F3C586319231498005D9A8B /* InfoPlist.strings in Resources */,
 				3F3C5926192314BC005D9A8B /* INKTwitterHandler.plist in Resources */,
 				3F3C5944192314BC005D9A8B /* INKTweetSheet@2x.png in Resources */,
 				3F3C59D919232C7F005D9A8B /* photo3.jpg in Resources */,
@@ -1679,6 +1701,7 @@
 				3F3C593B192314BC005D9A8B /* INKMailSheet.m in Sources */,
 				3F3C5A3F19232E8C005D9A8B /* PSTGridLayoutRow.m in Sources */,
 				3F3C597D192314BC005D9A8B /* INKFacebookHandler.m in Sources */,
+				3F5CACCF192562BC00EB7603 /* DemoNC.m in Sources */,
 				3F3C5A3119232E8C005D9A8B /* DACircularProgressView.m in Sources */,
 				3F3C597E192314BC005D9A8B /* INKGPlusHandler.m in Sources */,
 				3F3C59BD19232C64005D9A8B /* MWPhotoBrowser.m in Sources */,
@@ -1716,6 +1739,7 @@
 				3F3C58051922A062005D9A8B /* DemoCell.m in Sources */,
 				3F3C586619231498005D9A8B /* INKViewController.m in Sources */,
 				3F3C5A5019232E8C005D9A8B /* UIImage+WebP.m in Sources */,
+				3F5CACD21926A8D700EB7603 /* DemoNC+Apps.m in Sources */,
 				3F3C5A4E19232E8C005D9A8B /* UIImage+GIF.m in Sources */,
 				3F3C59C019232C64005D9A8B /* MWZoomingScrollView.m in Sources */,
 				3F3C59A419232B85005D9A8B /* DemoMWPhotoBrowser.m in Sources */,
@@ -1800,14 +1824,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				3F3C58311922F75D005D9A8B /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3F3C585919231498005D9A8B /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F3C585A19231498005D9A8B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1982,6 +1998,7 @@
 				3F3C57F719229C1B005D9A8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F3C57F819229C1B005D9A8B /* Build configuration list for PBXNativeTarget "iOS8Tests" */ = {
 			isa = XCConfigurationList;
@@ -1990,6 +2007,7 @@
 				3F3C57FA19229C1B005D9A8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

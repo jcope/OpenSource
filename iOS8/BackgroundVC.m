@@ -62,9 +62,9 @@
     _activeBackground = NO;
 }
 -(void)dissolveBackground{
-    //NSLog(@"Transistion background...");
+    //Cross Dissolve into the Next Background Image
     [UIView transitionWithView:self.view
-                      duration:1.75f
+                      duration:1.0f
                        options:UIViewAnimationOptionTransitionCrossDissolve
                     animations:^{
                         _background.image = _imageArray[(_imageIndex++)%[_imageArray count]];

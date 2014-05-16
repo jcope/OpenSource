@@ -17,11 +17,10 @@
 - (id)init{
     if (self = [super init]) {
         [self.view setBackgroundColor:[[UIColor redColor] colorWithAlphaComponent:0.45]];
-        //Must require way to close app
     }
     return self;
 }
-//*************************************************************//
+#pragma mark - DemoApp Delegates
 -(NSString*)appName{
     return @"Emma Tech";
 }
@@ -31,14 +30,8 @@
 -(UIImage*)appImage{
     return [UIImage imageNamed:@"Emma.png"];
 }
--(BOOL)launchAppFromViewController:(UIViewController *)viewController{
-    _homeVC = viewController;
-    [_homeVC.view addSubview:self.view];
-    return YES;
+-(UIViewController*)mainViewController{
+    return self;
 }
--(void)closeApp{
-    [self.view removeFromSuperview];
-}
-//*************************************************************//
 
 @end

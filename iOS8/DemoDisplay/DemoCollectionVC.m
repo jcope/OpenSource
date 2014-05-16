@@ -13,15 +13,15 @@
 @interface DemoCollectionVC ()
 @property (strong) id currentApp;
 @property (strong) UIButton* closeButton;
-@property (strong) UIViewController* homeVC;
+@property (strong) UINavigationController* demoNC;
 @property (strong) NSArray* demoArray;
 @end
 
 @implementation DemoCollectionVC
 
--(id)initWithHomeVC:(UIViewController*)homeVC demoArray:(NSArray*)demoArray{
+-(id)initWithDemoNC:(UINavigationController*)demoNC demoArray:(NSArray*)demoArray{
     //Store the data
-    _homeVC = homeVC;
+    _demoNC = demoNC;
     _demoArray = demoArray;
     [self createCloseButton];
     DemoCollectionLayout* layout = [[DemoCollectionLayout alloc] init];
@@ -88,12 +88,11 @@
     //Grab the demo at index
     
     id demoApp = _demoArray[indexPath.row];
-    if ([demoApp respondsToSelector:@selector(launchAppFromViewController:)]) {
-        //Launch Demo App
+    if ([demoApp respondsToSelector:@selector(mainViewController)]) {
+        
         _currentApp = demoApp;
-        [_currentApp launchAppFromViewController:_homeVC];
-        //Overlay a close button
-        [_homeVC.view addSubview:_closeButton];
+        [_demoNC pushViewController:[_currentApp mainViewController] animated:YES];
+        [_demoNC setNavigationBarHidden:NO animated:YES];
     }
 }
 -(void)createCloseButton{
@@ -109,10 +108,10 @@
     [_closeButton addTarget:self action:@selector(closeAction) forControlEvents:UIControlEventTouchUpInside];
 }
 -(void)closeAction{
-    if ([_currentApp respondsToSelector:@selector(closeApp)]) {
-        [_currentApp closeApp];
+    if ([_currentApp respondsToSelector:@selector(appWillClose)]) {
+        [_currentApp appWillClose];
     }
-    //Fade out Close Button
-    [_closeButton removeFromSuperview];
+    [_demoNC popViewControllerAnimated:YES];
+    [_demoNC setNavigationBarHidden:YES animated:YES];
 }
 @end
