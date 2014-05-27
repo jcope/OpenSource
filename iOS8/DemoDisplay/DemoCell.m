@@ -21,7 +21,7 @@
     if (self) {
         // Layout the elements
         //Image
-        _cellImage = [[UIImageView alloc] initWithFrame:CGRectMake(10, 15, 50, 90)];
+        _cellImage = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, 50, 90)];
         [self addSubview:_cellImage];
         
         //Title

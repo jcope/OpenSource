@@ -7,14 +7,18 @@
 //
 
 #import "HomeVC.h"
-#import "DemoCollectionVC.h"
 #import "BackgroundVC.h"
+#import "DemoCollectionVC.h"
+#import "ETiAd.h"
 
 
 @interface HomeVC ()
 //Data
 @property UINavigationController* demoNC;
+@property ETiAd* iAd;
 //View
+@property UILabel* appTitle;
+@property UILabel* appDetailTitle;
 @property BackgroundVC* backgroundVC;
 @property DemoCollectionVC* demoCollection;
 @end
@@ -32,15 +36,57 @@
         _backgroundVC = [[BackgroundVC alloc] init];
         [self.view addSubview:_backgroundVC.view];
         
+        //Add the app+detail title
+        [self addAppTitle];
+        [self addAppDetail];
+        
         //Create the Demo CollectionView
         _demoCollection = [[DemoCollectionVC alloc] initWithDemoNC:nav
                                                          demoArray:appArray];
         [_demoCollection.view setAlpha:0.0];
         [self.view addSubview:_demoCollection.view];
+        
+
     }
     return self;
 }
-#pragma mark View Delegates
+-(void)addAppTitle{
+    _appTitle = [[UILabel alloc] init];
+    CGFloat labelWidth = 225;
+    [_appTitle setFrame:CGRectMake((SCREEN_WIDTH-labelWidth)/2, 20, labelWidth, 75)];
+    //Create the attributed string so we can uttilze multiple fonts on seperate lines
+    NSMutableAttributedString* firstLine = [[NSMutableAttributedString alloc] initWithString:@"iNTERACTIVE\n"
+                                                                                  attributes:@{NSFontAttributeName:
+                                                                                                   [UIFont fontWithName:@"HelveticaNeue-Thin"
+                                                                                                                   size:32],
+                                                                                               NSForegroundColorAttributeName:
+                                                                                                   [UIColor blackColor]}];
+    NSAttributedString* secondLine = [[NSAttributedString alloc] initWithString:@"oPEN sOURCE"
+                                                                      attributes:@{NSFontAttributeName:
+                                                                                       [UIFont fontWithName:@"HelveticaNeue-LightItalic"
+                                                                                                       size:17],
+                                                                                   NSForegroundColorAttributeName:
+                                                                                       [UIColor blackColor]}];
+    [firstLine appendAttributedString:secondLine];
+    [_appTitle setAttributedText:firstLine];
+    
+    [_appTitle setTextAlignment:NSTextAlignmentCenter];
+    [_appTitle setNumberOfLines:2];
+    _appTitle.alpha = 0.0;
+    [self.view addSubview:_appTitle];
+}
+-(void)addAppDetail{
+    _appDetailTitle = [[UILabel alloc] init];
+    CGFloat labelWidth = 275;
+    [_appDetailTitle setFrame:CGRectMake((SCREEN_WIDTH-labelWidth)/2, 90, labelWidth, 50)];
+    [_appDetailTitle setText:@"A launch pad for developers to test and promote new features."];
+    [_appDetailTitle setFont:[UIFont fontWithName:@"HelveticaNeue-UltraLight" size:17]];
+    [_appDetailTitle setTextAlignment:NSTextAlignmentCenter];
+    [_appDetailTitle setNumberOfLines:2];
+    _appDetailTitle.alpha = 0.0;
+    [self.view addSubview:_appDetailTitle];
+}
+#pragma mark - View Delegates
 -(void)viewDidLoad{
     //Start the Background
     [_backgroundVC setupWithCompletion:^void{[self homeStart];}];
@@ -53,10 +99,16 @@
 -(void)homeStart{
     //Fade in Collection View
     [UIView animateWithDuration:1.0 animations:^{
+        [_appTitle setAlpha:1.0];
+        [_appDetailTitle setAlpha:1.0];
         [_demoCollection.view setAlpha:1.0];
     } completion:^(BOOL finished) {
         //Start the Backgound Transitions
         [_backgroundVC start];
+        //Add the Ads (Sorry, Gotta Get Paid!)
+        _iAd = [[ETiAd alloc] initWithDisplayView:_backgroundVC.view];
+        
     }];
 }
 @end
+

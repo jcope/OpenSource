@@ -27,31 +27,18 @@
         
         _imageIndex = 0;
         _activeBackground = NO;
-        _imageArray = @[[UIImage imageNamed:@"Background1.png"],
-                        [UIImage imageNamed:@"Background2.png"],
-                        [UIImage imageNamed:@"Background3.png"],
-                        [UIImage imageNamed:@"Background4.png"],
+        _imageArray = @[[UIImage imageNamed:@"Background4.png"],
                         [UIImage imageNamed:@"Background5.png"]];
     }
     return self;
 }
 //Fade in the background
 -(void)setupWithCompletion:(void (^)(void))completion{
-    [UIView animateWithDuration:3.0 animations:^{
+    [UIView animateWithDuration:2.7 animations:^{
         [_background setAlpha:1.0];
     } completion:^(BOOL finished) {
         completion();
     }];
-    /*
-    [UIView transitionWithView:self.view
-                      duration:3.0f
-                       options:UIViewAnimationOptionTransitionCrossDissolve
-                    animations:^{
-                        _background.image = [UIImage imageNamed:@"Background1.png"];
-                    } completion:^(BOOL finished) {
-                        completion();
-                    }];
-     */
 }
 -(void)start{
     _activeBackground = YES;
@@ -64,7 +51,7 @@
 -(void)dissolveBackground{
     //Cross Dissolve into the Next Background Image
     [UIView transitionWithView:self.view
-                      duration:1.0f
+                      duration:4.2f
                        options:UIViewAnimationOptionTransitionCrossDissolve
                     animations:^{
                         _background.image = _imageArray[(_imageIndex++)%[_imageArray count]];

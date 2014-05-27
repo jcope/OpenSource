@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F3575D61935356900EE23F4 /* Emma.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3575D51935356900EE23F4 /* Emma.xib */; };
 		3F3C57CD19229C1B005D9A8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C57CC19229C1B005D9A8B /* Foundation.framework */; };
 		3F3C57CF19229C1B005D9A8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C57CE19229C1B005D9A8B /* CoreGraphics.framework */; };
 		3F3C57D119229C1B005D9A8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C57D019229C1B005D9A8B /* UIKit.framework */; };
@@ -236,6 +237,7 @@
 		3F3C5A5219232E8C005D9A8B /* MWPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3F3C5A3019232E8C005D9A8B /* MWPhotoBrowser.bundle */; };
 		3F5CACCF192562BC00EB7603 /* DemoNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CACCE192562BC00EB7603 /* DemoNC.m */; };
 		3F5CACD21926A8D700EB7603 /* DemoNC+Apps.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CACD11926A8D700EB7603 /* DemoNC+Apps.m */; };
+		3F5CACD91926B7A700EB7603 /* ETiAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CACD81926B7A700EB7603 /* ETiAd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -249,6 +251,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F3575D51935356900EE23F4 /* Emma.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Emma.xib; path = Demos/Emma/Emma.xib; sourceTree = "<group>"; };
 		3F3C57C919229C1B005D9A8B /* iOS8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3C57CC19229C1B005D9A8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3F3C57CE19229C1B005D9A8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -579,6 +582,8 @@
 		3F5CACCE192562BC00EB7603 /* DemoNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoNC.m; sourceTree = "<group>"; };
 		3F5CACD01926A8D700EB7603 /* DemoNC+Apps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DemoNC+Apps.h"; sourceTree = "<group>"; };
 		3F5CACD11926A8D700EB7603 /* DemoNC+Apps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DemoNC+Apps.m"; sourceTree = "<group>"; };
+		3F5CACD71926B7A700EB7603 /* ETiAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ETiAd.h; path = iAd/ETiAd.h; sourceTree = "<group>"; };
+		3F5CACD81926B7A700EB7603 /* ETiAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ETiAd.m; path = iAd/ETiAd.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -641,6 +646,7 @@
 				3F3C57D319229C1B005D9A8B /* Supporting Files */,
 				3F3C5995192316EC005D9A8B /* Dependencies */,
 				3F3C58131922B903005D9A8B /* Media */,
+				3F5CACD61926B79400EB7603 /* iAd */,
 				3F3C581E1922EC34005D9A8B /* Header */,
 				3F3C580A1922A354005D9A8B /* Demos */,
 				3F5CACD31926AB6600EB7603 /* Home */,
@@ -719,6 +725,7 @@
 				3F3C580F1922A6B7005D9A8B /* Media */,
 				3F3C580C1922A391005D9A8B /* EmmaApp.h */,
 				3F3C580D1922A391005D9A8B /* EmmaApp.m */,
+				3F3575D51935356900EE23F4 /* Emma.xib */,
 			);
 			name = Emma;
 			sourceTree = "<group>";
@@ -1468,6 +1475,15 @@
 			name = Header;
 			sourceTree = "<group>";
 		};
+		3F5CACD61926B79400EB7603 /* iAd */ = {
+			isa = PBXGroup;
+			children = (
+				3F5CACD71926B7A700EB7603 /* ETiAd.h */,
+				3F5CACD81926B7A700EB7603 /* ETiAd.m */,
+			);
+			name = iAd;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1570,6 +1586,7 @@
 				3F3C598E192314BC005D9A8B /* share.png in Resources */,
 				3F3C5990192314BC005D9A8B /* IntentKit-Info.plist in Resources */,
 				3F3C59E419232C7F005D9A8B /* photo8t.jpg in Resources */,
+				3F3575D61935356900EE23F4 /* Emma.xib in Resources */,
 				3F3C5917192314BC005D9A8B /* 1Password.plist in Resources */,
 				3F3C5A3319232E8C005D9A8B /* README.mdown in Resources */,
 				3F3C592F192314BC005D9A8B /* Gmail@2x~ipad.png in Resources */,
@@ -1711,6 +1728,7 @@
 				3F3C584A1922F800005D9A8B /* RECommonFunctions.m in Sources */,
 				3F3C5974192314BC005D9A8B /* INKDefaultsManager.m in Sources */,
 				3F3C5A3D19232E8C005D9A8B /* PSTGridLayoutInfo.m in Sources */,
+				3F5CACD91926B7A700EB7603 /* ETiAd.m in Sources */,
 				3F3C58381922F75D005D9A8B /* DEMOLeftMenuViewController.m in Sources */,
 				3F3C5A4B19232E8C005D9A8B /* SDWebImageManager.m in Sources */,
 				3F3C596F192314BC005D9A8B /* INKActivityCell.m in Sources */,
@@ -1917,6 +1935,7 @@
 				);
 				INFOPLIST_FILE = "iOS8/iOS8-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1935,6 +1954,7 @@
 				);
 				INFOPLIST_FILE = "iOS8/iOS8-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DemoCollectionVC : UICollectionViewController <UICollectionViewDelegate>
+@interface DemoCollectionVC : UICollectionViewController <UICollectionViewDelegate, UINavigationControllerDelegate>
 
 -(id)initWithDemoNC:(UIViewController*)demoNC demoArray:(NSArray*)demoArray;
 @end

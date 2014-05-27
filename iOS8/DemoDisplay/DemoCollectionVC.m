@@ -9,10 +9,10 @@
 #import "DemoCollectionVC.h"
 #import "DemoCollectionLayout.h"
 #import "DemoCell.h"
+#import "HomeVC.h"
 
 @interface DemoCollectionVC ()
 @property (strong) id currentApp;
-@property (strong) UIButton* closeButton;
 @property (strong) UINavigationController* demoNC;
 @property (strong) NSArray* demoArray;
 @end
@@ -22,8 +22,8 @@
 -(id)initWithDemoNC:(UINavigationController*)demoNC demoArray:(NSArray*)demoArray{
     //Store the data
     _demoNC = demoNC;
+    _demoNC.delegate = self;
     _demoArray = demoArray;
-    [self createCloseButton];
     DemoCollectionLayout* layout = [[DemoCollectionLayout alloc] init];
     return [self initWithCollectionViewLayout:layout];
 }
@@ -32,7 +32,7 @@
     if (self = [super initWithCollectionViewLayout:layout]) {
         //Set up the frame
         CGFloat xInit = 20;
-        CGFloat yInit = 80; //35
+        CGFloat yInit = 90; //35
         CGFloat yBottomBuffer = 60;
         if (IS_IPAD) {
             xInit = 40;
@@ -44,7 +44,7 @@
         //Register the Cells
         [self.collectionView registerClass:[DemoCell class] forCellWithReuseIdentifier:[DemoCell cellIdentifier]];
         [self.collectionView setBackgroundColor:[UIColor clearColor]];
-        [self.collectionView setContentInset:UIEdgeInsetsMake(110,0,5,0)];
+        [self.collectionView setContentInset:UIEdgeInsetsMake(100,0,5,0)];
         [self.collectionView setDataSource: self];
     }
     return self;
@@ -82,11 +82,10 @@
     }
     CGFloat cellWidth = SCREEN_WIDTH-(2*xInit);
     
-    return CGSizeMake(cellWidth, 100);
+    return CGSizeMake(cellWidth, 110);
 }
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     //Grab the demo at index
-    
     id demoApp = _demoArray[indexPath.row];
     if ([demoApp respondsToSelector:@selector(mainViewController)]) {
         
@@ -95,23 +94,18 @@
         [_demoNC setNavigationBarHidden:NO animated:YES];
     }
 }
--(void)createCloseButton{
-    CGFloat buttonWidth = 50;
-    _closeButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [_closeButton setTitle:@"Close" forState:UIControlStateNormal];
-    [_closeButton.titleLabel setFont:[UIFont fontWithName:@"HelveticaNeue-Light" size:17]];
-    [_closeButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [_closeButton setTitleColor:[UIColor darkGrayColor] forState:UIControlStateHighlighted];
-    [_closeButton setFrame:CGRectMake(SCREEN_WIDTH-buttonWidth-10,25,buttonWidth,30)];
-    [_closeButton setBackgroundColor:[[UIColor whiteColor] colorWithAlphaComponent:0.75]];
-    [_closeButton.layer setCornerRadius:10];
-    [_closeButton addTarget:self action:@selector(closeAction) forControlEvents:UIControlEventTouchUpInside];
-}
--(void)closeAction{
-    if ([_currentApp respondsToSelector:@selector(appWillClose)]) {
-        [_currentApp appWillClose];
+#pragma mark - NavigationController Delegate
+//This delegate method should be moved to a more appropriate class
+//Will remain here for now because we need access to the currentApp object
+- (void)navigationController:(UINavigationController *)navigationController
+      willShowViewController:(UIViewController *)viewController
+                    animated:(BOOL)animated{
+    //If we will show the HomeVC, then we will signal to the current app
+    //If it respondes tot he appWillClose selector
+    if ([viewController isKindOfClass:[HomeVC class]]) {
+        if ([_currentApp respondsToSelector:@selector(appWillClose)]) {
+            [_currentApp appWillClose];
+        }
     }
-    [_demoNC popViewControllerAnimated:YES];
-    [_demoNC setNavigationBarHidden:YES animated:YES];
 }
 @end
