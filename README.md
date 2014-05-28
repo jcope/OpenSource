@@ -3,7 +3,7 @@ iOS8
 
 Open Source iOS8 Feature Requests
 
-This open source app created to allow iOS developers to self promote homebrew technologies.
+This open source app was created to allow iOS developers to self-promote homebrew technologies.
 
 We are in no way associated with Apple(c) nor do we intend to infringe on any of their legal rights.
 
