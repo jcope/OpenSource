@@ -50,7 +50,7 @@
 }
 #pragma mark View Actions
 - (IBAction)gitAction:(id)sender {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://github.com/jcope/iOS8"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://github.com/jcope/OpenSource"]];
     
 }
 #pragma mark - DemoApp Delegates

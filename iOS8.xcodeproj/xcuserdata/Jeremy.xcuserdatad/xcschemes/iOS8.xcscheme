@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3F3C57C819229C1B005D9A8B"
-               BuildableName = "iOS8.app"
+               BuildableName = "ios.app"
                BlueprintName = "iOS8"
                ReferencedContainer = "container:iOS8.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3F3C57C819229C1B005D9A8B"
-            BuildableName = "iOS8.app"
+            BuildableName = "ios.app"
             BlueprintName = "iOS8"
             ReferencedContainer = "container:iOS8.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3F3C57C819229C1B005D9A8B"
-            BuildableName = "iOS8.app"
+            BuildableName = "ios.app"
             BlueprintName = "iOS8"
             ReferencedContainer = "container:iOS8.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3F3C57C819229C1B005D9A8B"
-            BuildableName = "iOS8.app"
+            BuildableName = "ios.app"
             BlueprintName = "iOS8"
             ReferencedContainer = "container:iOS8.xcodeproj">
          </BuildableReference>
