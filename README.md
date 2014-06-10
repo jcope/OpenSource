@@ -1,7 +1,7 @@
-iOS8
+iNTERACTIVE oPEN sOURCE
 ====
 
-Open Source iOS8 Feature Requests
+Open Source iOS Feature Requests
 
 This open source app was created to allow iOS developers to self-promote homebrew technologies.
 
