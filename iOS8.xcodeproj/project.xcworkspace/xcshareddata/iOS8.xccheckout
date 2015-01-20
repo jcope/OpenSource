@@ -10,45 +10,45 @@
 	<string>iOS8</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>09DF7569-AEE5-4714-82B7-C3DADE077761</key>
-		<string>https://github.com/intentkit/IntentKit.git</string>
-		<key>72BD3139-5804-4902-8AE5-270E49A7B79E</key>
-		<string>https://github.com/lazerwalker/MWLayoutHelpers.git</string>
-		<key>C5F18FE0-2EB9-413A-934F-E888B33749E3</key>
+		<key>4B63EDEC36F4318C6611FC1A7F8BF6DE2C0C672B</key>
 		<string>https://github.com/jcope/iOS8.git</string>
-		<key>EBEBC419-554E-4830-B825-9250E02C01A9</key>
-		<string>https://github.com/mwaterfall/MWPhotoBrowser.git</string>
-		<key>F7508AF1-66C2-411C-9B3A-3551F592FE9A</key>
+		<key>4D9AE519C7D7E765CA7498EFD8B3BB24ACB11215</key>
 		<string>https://github.com/romaonthego/RESideMenu.git</string>
+		<key>8E96DD2B0F8BC689A838F730A321FA4197DC6C66</key>
+		<string>https://github.com/lazerwalker/MWLayoutHelpers.git</string>
+		<key>9F9B14DA276794D9192F387F0CC62561009373D0</key>
+		<string>https://github.com/mwaterfall/MWPhotoBrowser.git</string>
+		<key>CAEA25A3F4BB87EC2142AB785CCF42C393CCBD12</key>
+		<string>https://github.com/intentkit/IntentKit.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iOS8.xcodeproj/project.xcworkspace</string>
+	<string>iOS8.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>09DF7569-AEE5-4714-82B7-C3DADE077761</key>
-		<string>../../iOS8/Demos/IntentKit</string>
-		<key>72BD3139-5804-4902-8AE5-270E49A7B79E</key>
-		<string>../../iOS8/Dependencies/MWLayoutHelpers</string>
-		<key>C5F18FE0-2EB9-413A-934F-E888B33749E3</key>
+		<key>4B63EDEC36F4318C6611FC1A7F8BF6DE2C0C672B</key>
 		<string>../..</string>
-		<key>EBEBC419-554E-4830-B825-9250E02C01A9</key>
-		<string>../../iOS8/Demos/MWPhotoBrowser</string>
-		<key>F7508AF1-66C2-411C-9B3A-3551F592FE9A</key>
-		<string>../../iOS8/Demos/RESideMenu</string>
+		<key>4D9AE519C7D7E765CA7498EFD8B3BB24ACB11215</key>
+		<string>../..iOS8/Demos/RESideMenu</string>
+		<key>8E96DD2B0F8BC689A838F730A321FA4197DC6C66</key>
+		<string>../..iOS8/Dependencies/MWLayoutHelpers</string>
+		<key>9F9B14DA276794D9192F387F0CC62561009373D0</key>
+		<string>../..iOS8/Demos/MWPhotoBrowser</string>
+		<key>CAEA25A3F4BB87EC2142AB785CCF42C393CCBD12</key>
+		<string>../..iOS8/Demos/IntentKit</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/jcope/iOS8.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C5F18FE0-2EB9-413A-934F-E888B33749E3</string>
+	<string>4B63EDEC36F4318C6611FC1A7F8BF6DE2C0C672B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>09DF7569-AEE5-4714-82B7-C3DADE077761</string>
+			<string>CAEA25A3F4BB87EC2142AB785CCF42C393CCBD12</string>
 			<key>IDESourceControlWCCName</key>
 			<string>IntentKit</string>
 		</dict>
@@ -56,7 +56,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C5F18FE0-2EB9-413A-934F-E888B33749E3</string>
+			<string>4B63EDEC36F4318C6611FC1A7F8BF6DE2C0C672B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>iOS8</string>
 		</dict>
@@ -64,7 +64,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>72BD3139-5804-4902-8AE5-270E49A7B79E</string>
+			<string>8E96DD2B0F8BC689A838F730A321FA4197DC6C66</string>
 			<key>IDESourceControlWCCName</key>
 			<string>MWLayoutHelpers</string>
 		</dict>
@@ -72,7 +72,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>EBEBC419-554E-4830-B825-9250E02C01A9</string>
+			<string>9F9B14DA276794D9192F387F0CC62561009373D0</string>
 			<key>IDESourceControlWCCName</key>
 			<string>MWPhotoBrowser</string>
 		</dict>
@@ -80,7 +80,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F7508AF1-66C2-411C-9B3A-3551F592FE9A</string>
+			<string>4D9AE519C7D7E765CA7498EFD8B3BB24ACB11215</string>
 			<key>IDESourceControlWCCName</key>
 			<string>RESideMenu</string>
 		</dict>
