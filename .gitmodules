@@ -10,3 +10,6 @@
 [submodule "iOS8/Demos/MWPhotoBrowser"]
 	path = iOS8/Demos/MWPhotoBrowser
 	url = https://github.com/mwaterfall/MWPhotoBrowser.git
+[submodule "iOS8/Demos/WatchSpringboard"]
+	path = iOS8/Demos/WatchSpringboard
+	url = https://github.com/lmmenge/WatchSpringboard-Prototype.git
