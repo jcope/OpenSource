@@ -9,6 +9,7 @@
 #import "DemoNC+Apps.h"
 //Import your Demo
 #import "EmmaApp.h"
+#import "DemoWatchSpringboard.h"
 #import "DemoRESideMenu.h"
 #import "DemoIntent.h"
 #import "DemoMWPhotoBrowser.h"
@@ -20,6 +21,7 @@
     
     //*********** Initialize and Add Demo App Here **************//
     [self.demoAppArray addObject:[[EmmaApp alloc] init]];
+    [self.demoAppArray addObject:[[DemoWatchSpringboard alloc] init]];
     [self.demoAppArray addObject:[[DemoRESideMenu alloc] init]];
     [self.demoAppArray addObject:[[DemoIntent alloc] init]];
     [self.demoAppArray addObject:[[DemoMWPhotoBrowser alloc] init]];
