@@ -252,6 +252,17 @@
 		3FA632F31A6EF6160016338D /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA632F21A6EF6160016338D /* iAd.framework */; };
 		3FA632F51A6EF61D0016338D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA632F41A6EF61D0016338D /* CoreLocation.framework */; };
 		3FA632F71A6EF6550016338D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA632F61A6EF6550016338D /* Social.framework */; };
+		3FA632FB1A6F09220016338D /* DemoWatchSpringboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA632FA1A6F09220016338D /* DemoWatchSpringboard.m */; };
+		3FA633081A6F0F7E0016338D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FA632FD1A6F0F7E0016338D /* LaunchScreen.xib */; };
+		3FA633091A6F0F7E0016338D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA632FF1A6F0F7E0016338D /* Main.storyboard */; };
+		3FA6330A1A6F0F7E0016338D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA633011A6F0F7E0016338D /* Images.xcassets */; };
+		3FA6330B1A6F0F7E0016338D /* LMSpringboardItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA633031A6F0F7E0016338D /* LMSpringboardItemView.m */; };
+		3FA6330C1A6F0F7E0016338D /* LMSpringboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA633051A6F0F7E0016338D /* LMSpringboardView.m */; };
+		3FA6330D1A6F0F7E0016338D /* LMViewControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA633071A6F0F7E0016338D /* LMViewControllerView.m */; };
+		3FA633121A6F1C800016338D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA633111A6F1C800016338D /* ViewController.m */; };
+		3FA633181A6F1C8F0016338D /* LMApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA633151A6F1C8F0016338D /* LMApp.m */; };
+		3FA633191A6F1C8F0016338D /* LMAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA633171A6F1C8F0016338D /* LMAppController.m */; };
+		3FA6331B1A6F1D4E0016338D /* WatchSpringboardScreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA6331A1A6F1D4E0016338D /* WatchSpringboardScreenShot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -613,6 +624,24 @@
 		3FA632F21A6EF6160016338D /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		3FA632F41A6EF61D0016338D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		3FA632F61A6EF6550016338D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		3FA632F91A6F09220016338D /* DemoWatchSpringboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoWatchSpringboard.h; path = Demos/WatchSpringboard/DemoWatchSpringboard.h; sourceTree = "<group>"; };
+		3FA632FA1A6F09220016338D /* DemoWatchSpringboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoWatchSpringboard.m; path = Demos/WatchSpringboard/DemoWatchSpringboard.m; sourceTree = "<group>"; };
+		3FA632FE1A6F0F7E0016338D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		3FA633001A6F0F7E0016338D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		3FA633011A6F0F7E0016338D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Demos/WatchSpringboard/WatchSpringboard/Images.xcassets; sourceTree = "<group>"; };
+		3FA633021A6F0F7E0016338D /* LMSpringboardItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMSpringboardItemView.h; path = Demos/WatchSpringboard/WatchSpringboard/LMSpringboardItemView.h; sourceTree = "<group>"; };
+		3FA633031A6F0F7E0016338D /* LMSpringboardItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMSpringboardItemView.m; path = Demos/WatchSpringboard/WatchSpringboard/LMSpringboardItemView.m; sourceTree = "<group>"; };
+		3FA633041A6F0F7E0016338D /* LMSpringboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMSpringboardView.h; path = Demos/WatchSpringboard/WatchSpringboard/LMSpringboardView.h; sourceTree = "<group>"; };
+		3FA633051A6F0F7E0016338D /* LMSpringboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMSpringboardView.m; path = Demos/WatchSpringboard/WatchSpringboard/LMSpringboardView.m; sourceTree = "<group>"; };
+		3FA633061A6F0F7E0016338D /* LMViewControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMViewControllerView.h; path = Demos/WatchSpringboard/WatchSpringboard/LMViewControllerView.h; sourceTree = "<group>"; };
+		3FA633071A6F0F7E0016338D /* LMViewControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMViewControllerView.m; path = Demos/WatchSpringboard/WatchSpringboard/LMViewControllerView.m; sourceTree = "<group>"; };
+		3FA633101A6F1C800016338D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Demos/WatchSpringboard/WatchSpringboard/ViewController.h; sourceTree = "<group>"; };
+		3FA633111A6F1C800016338D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Demos/WatchSpringboard/WatchSpringboard/ViewController.m; sourceTree = "<group>"; };
+		3FA633141A6F1C8F0016338D /* LMApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMApp.h; sourceTree = "<group>"; };
+		3FA633151A6F1C8F0016338D /* LMApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMApp.m; sourceTree = "<group>"; };
+		3FA633161A6F1C8F0016338D /* LMAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAppController.h; sourceTree = "<group>"; };
+		3FA633171A6F1C8F0016338D /* LMAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAppController.m; sourceTree = "<group>"; };
+		3FA6331A1A6F1D4E0016338D /* WatchSpringboardScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WatchSpringboardScreenShot.png; path = Demos/WatchSpringboard/WatchSpringboardScreenShot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -757,6 +786,7 @@
 			children = (
 				3F3C58091922A2BA005D9A8B /* DemoApp.h */,
 				3F3C580B1922A372005D9A8B /* Emma */,
+				3FA632F81A6F08D10016338D /* WatchSpringboard */,
 				3F3C58251922F75D005D9A8B /* RESideMenu */,
 				3F3C5852192313AC005D9A8B /* Intent */,
 				3F3C599D19232AD7005D9A8B /* MWPhotoBrower */,
@@ -1544,6 +1574,65 @@
 			path = Waze;
 			sourceTree = "<group>";
 		};
+		3FA632F81A6F08D10016338D /* WatchSpringboard */ = {
+			isa = PBXGroup;
+			children = (
+				3FA6331A1A6F1D4E0016338D /* WatchSpringboardScreenShot.png */,
+				3FA6330F1A6F1C640016338D /* Demo */,
+				3FA6330E1A6F0F830016338D /* Source */,
+				3FA632F91A6F09220016338D /* DemoWatchSpringboard.h */,
+				3FA632FA1A6F09220016338D /* DemoWatchSpringboard.m */,
+			);
+			name = WatchSpringboard;
+			sourceTree = "<group>";
+		};
+		3FA632FC1A6F0F7E0016338D /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				3FA632FD1A6F0F7E0016338D /* LaunchScreen.xib */,
+				3FA632FF1A6F0F7E0016338D /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = Demos/WatchSpringboard/WatchSpringboard/Base.lproj;
+			sourceTree = "<group>";
+		};
+		3FA6330E1A6F0F830016338D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3FA633131A6F1C8F0016338D /* LaunchServicesApis */,
+				3FA632FC1A6F0F7E0016338D /* Base.lproj */,
+				3FA633011A6F0F7E0016338D /* Images.xcassets */,
+				3FA633021A6F0F7E0016338D /* LMSpringboardItemView.h */,
+				3FA633031A6F0F7E0016338D /* LMSpringboardItemView.m */,
+				3FA633041A6F0F7E0016338D /* LMSpringboardView.h */,
+				3FA633051A6F0F7E0016338D /* LMSpringboardView.m */,
+				3FA633061A6F0F7E0016338D /* LMViewControllerView.h */,
+				3FA633071A6F0F7E0016338D /* LMViewControllerView.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		3FA6330F1A6F1C640016338D /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3FA633101A6F1C800016338D /* ViewController.h */,
+				3FA633111A6F1C800016338D /* ViewController.m */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		3FA633131A6F1C8F0016338D /* LaunchServicesApis */ = {
+			isa = PBXGroup;
+			children = (
+				3FA633141A6F1C8F0016338D /* LMApp.h */,
+				3FA633151A6F1C8F0016338D /* LMApp.m */,
+				3FA633161A6F1C8F0016338D /* LMAppController.h */,
+				3FA633171A6F1C8F0016338D /* LMAppController.m */,
+			);
+			name = LaunchServicesApis;
+			path = Demos/WatchSpringboard/LaunchServicesApis;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1605,6 +1694,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 3F3C57C019229C1B005D9A8B;
 			productRefGroup = 3F3C57CA19229C1B005D9A8B /* Products */;
@@ -1637,6 +1727,7 @@
 				3F3C598F192314BC005D9A8B /* share@2x.png in Resources */,
 				3F3C5948192314BC005D9A8B /* INKWebView.plist in Resources */,
 				3F3C59D519232C7F005D9A8B /* photo1.jpg in Resources */,
+				3FA633091A6F0F7E0016338D /* Main.storyboard in Resources */,
 				3F3C5955192314BC005D9A8B /* Maps.png in Resources */,
 				3F3C5956192314BC005D9A8B /* Maps@2x.png in Resources */,
 				3F3C5942192314BC005D9A8B /* INKTweetSheet.plist in Resources */,
@@ -1688,6 +1779,7 @@
 				3F3C58571923141B005D9A8B /* IntentScreenShot.png in Resources */,
 				3F3C5949192314BC005D9A8B /* INKWebView.png in Resources */,
 				3F3C5A5219232E8C005D9A8B /* MWPhotoBrowser.bundle in Resources */,
+				3FA6331B1A6F1D4E0016338D /* WatchSpringboardScreenShot.png in Resources */,
 				3F3C591A192314BC005D9A8B /* 1Password@2x~ipad.png in Resources */,
 				3F3C5950192314BC005D9A8B /* Mail.png in Resources */,
 				3F3C5920192314BC005D9A8B /* Chrome~ipad.png in Resources */,
@@ -1702,6 +1794,7 @@
 				3F3C5958192314BC005D9A8B /* Maps~ipad.png in Resources */,
 				3F3C59DF19232C7F005D9A8B /* photo6.jpg in Resources */,
 				3F3C59E219232C7F005D9A8B /* photo7t.jpg in Resources */,
+				3FA633081A6F0F7E0016338D /* LaunchScreen.xib in Resources */,
 				3F3C59DE19232C7F005D9A8B /* photo5t.jpg in Resources */,
 				3F3C5954192314BC005D9A8B /* Maps.plist in Resources */,
 				3F3C593C192314BC005D9A8B /* INKMailSheet.plist in Resources */,
@@ -1715,6 +1808,7 @@
 				3F3C58111922A6EF005D9A8B /* Emma.png in Resources */,
 				3F3C586419231498005D9A8B /* Images.xcassets in Resources */,
 				3F3C595C192314BC005D9A8B /* Safari@2x~ipad.png in Resources */,
+				3FA6330A1A6F0F7E0016338D /* Images.xcassets in Resources */,
 				3F3C596C192314BC005D9A8B /* Twitterrific~ipad.png in Resources */,
 				3F3C594E192314BC005D9A8B /* IntentKitBundle-Info.plist in Resources */,
 				3F3C58171922B90D005D9A8B /* Background.png in Resources */,
@@ -1815,6 +1909,7 @@
 				3F3C5973192314BC005D9A8B /* INKApplicationList.m in Sources */,
 				3F3C59D419232C7F005D9A8B /* Menu.m in Sources */,
 				3F3C5A4719232E8C005D9A8B /* SDWebImageCompat.m in Sources */,
+				3FA6330B1A6F0F7E0016338D /* LMSpringboardItemView.m in Sources */,
 				3F3C5A3419232E8C005D9A8B /* NSIndexPath+PSTCollectionViewAdditions.m in Sources */,
 				3F3C57DD19229C1B005D9A8B /* AppDelegate.m in Sources */,
 				3F3C596D192314BC005D9A8B /* NSString+Helpers.m in Sources */,
@@ -1825,6 +1920,7 @@
 				3F3C586519231498005D9A8B /* INKAppDelegate.m in Sources */,
 				3F3C58051922A062005D9A8B /* DemoCell.m in Sources */,
 				3F3C586619231498005D9A8B /* INKViewController.m in Sources */,
+				3FA632FB1A6F09220016338D /* DemoWatchSpringboard.m in Sources */,
 				3F3C5A5019232E8C005D9A8B /* UIImage+WebP.m in Sources */,
 				3F5CACD21926A8D700EB7603 /* DemoNC+Apps.m in Sources */,
 				3F3C5A4E19232E8C005D9A8B /* UIImage+GIF.m in Sources */,
@@ -1835,8 +1931,11 @@
 				3F3C580E1922A391005D9A8B /* EmmaApp.m in Sources */,
 				3F3C59BF19232C64005D9A8B /* MWTapDetectingView.m in Sources */,
 				3F3C5A4919232E8C005D9A8B /* SDWebImageDownloader.m in Sources */,
+				3FA6330C1A6F0F7E0016338D /* LMSpringboardView.m in Sources */,
 				3F3C59BA19232C64005D9A8B /* MWGridCell.m in Sources */,
+				3FA633181A6F1C8F0016338D /* LMApp.m in Sources */,
 				3F3C5A3219232E8C005D9A8B /* MBProgressHUD.m in Sources */,
+				3FA633191A6F1C8F0016338D /* LMAppController.m in Sources */,
 				3F3C5A4F19232E8C005D9A8B /* UIImage+MultiFormat.m in Sources */,
 				3F3C5975192314BC005D9A8B /* INKDefaultsCell.m in Sources */,
 				3F3C5A4819232E8C005D9A8B /* SDWebImageDecoder.m in Sources */,
@@ -1844,6 +1943,7 @@
 				3F3C5A4619232E8C005D9A8B /* SDImageCache.m in Sources */,
 				3F3C5978192314BC005D9A8B /* INKHandler.m in Sources */,
 				3F3C584B1922F800005D9A8B /* RESideMenu.m in Sources */,
+				3FA6330D1A6F0F7E0016338D /* LMViewControllerView.m in Sources */,
 				3FA632E71A6EE1CC0016338D /* UIView+WebCacheOperation.m in Sources */,
 				3F3C5979192314BC005D9A8B /* INKLocalizedString.m in Sources */,
 				3F3C597B192314BC005D9A8B /* IntentKit.m in Sources */,
@@ -1859,6 +1959,7 @@
 				3F3C597F192314BC005D9A8B /* INKMailHandler.m in Sources */,
 				3F3C5972192314BC005D9A8B /* INKAppIconView.m in Sources */,
 				3F3C597C192314BC005D9A8B /* INKBrowserHandler.m in Sources */,
+				3FA633121A6F1C800016338D /* ViewController.m in Sources */,
 				3F3C58371922F75D005D9A8B /* DEMOFirstViewController.m in Sources */,
 				3F3C5A4D19232E8C005D9A8B /* UIButton+WebCache.m in Sources */,
 				3F3C5A3A19232E8C005D9A8B /* PSTCollectionViewItemKey.m in Sources */,
@@ -1913,6 +2014,22 @@
 				3F3C58311922F75D005D9A8B /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3FA632FD1A6F0F7E0016338D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA632FE1A6F0F7E0016338D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		3FA632FF1A6F0F7E0016338D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA633001A6F0F7E0016338D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

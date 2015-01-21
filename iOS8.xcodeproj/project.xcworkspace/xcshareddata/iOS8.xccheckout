@@ -16,6 +16,8 @@
 		<string>https://github.com/romaonthego/RESideMenu.git</string>
 		<key>8E96DD2B0F8BC689A838F730A321FA4197DC6C66</key>
 		<string>https://github.com/lazerwalker/MWLayoutHelpers.git</string>
+		<key>94BD19E1CA43732F522FA6BC78B46C612B125E40</key>
+		<string>https://github.com/lmmenge/WatchSpringboard-Prototype.git</string>
 		<key>9F9B14DA276794D9192F387F0CC62561009373D0</key>
 		<string>https://github.com/mwaterfall/MWPhotoBrowser.git</string>
 		<key>CAEA25A3F4BB87EC2142AB785CCF42C393CCBD12</key>
@@ -31,6 +33,8 @@
 		<string>../..iOS8/Demos/RESideMenu</string>
 		<key>8E96DD2B0F8BC689A838F730A321FA4197DC6C66</key>
 		<string>../..iOS8/Dependencies/MWLayoutHelpers</string>
+		<key>94BD19E1CA43732F522FA6BC78B46C612B125E40</key>
+		<string>../../iOS8/Demos/WatchSpringboard</string>
 		<key>9F9B14DA276794D9192F387F0CC62561009373D0</key>
 		<string>../..iOS8/Demos/MWPhotoBrowser</string>
 		<key>CAEA25A3F4BB87EC2142AB785CCF42C393CCBD12</key>
@@ -83,6 +87,14 @@
 			<string>4D9AE519C7D7E765CA7498EFD8B3BB24ACB11215</string>
 			<key>IDESourceControlWCCName</key>
 			<string>RESideMenu</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>94BD19E1CA43732F522FA6BC78B46C612B125E40</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WatchSpringboard</string>
 		</dict>
 	</array>
 </dict>
