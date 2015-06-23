@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F16D4C61ACC39990090AD34 /* Background6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F16D4C51ACC39990090AD34 /* Background6.png */; };
+		3F16D4C91ACC3AC00090AD34 /* FaceBook.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 3F16D4C81ACC3A9A0090AD34 /* FaceBook.OTF */; };
 		3F3575D61935356900EE23F4 /* Emma.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3575D51935356900EE23F4 /* Emma.xib */; };
 		3F3C57CD19229C1B005D9A8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C57CC19229C1B005D9A8B /* Foundation.framework */; };
 		3F3C57CF19229C1B005D9A8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C57CE19229C1B005D9A8B /* CoreGraphics.framework */; };
@@ -310,6 +312,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F16D4C51ACC39990090AD34 /* Background6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background6.png; path = Media/Background6.png; sourceTree = "<group>"; };
+		3F16D4C81ACC3A9A0090AD34 /* FaceBook.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = FaceBook.OTF; path = Fonts/FaceBook.OTF; sourceTree = "<group>"; };
 		3F3575D51935356900EE23F4 /* Emma.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Emma.xib; path = Demos/Emma/Emma.xib; sourceTree = "<group>"; };
 		3F3C57C919229C1B005D9A8B /* ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3C57CC19229C1B005D9A8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -742,6 +746,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F16D4C71ACC3A5C0090AD34 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3F16D4C81ACC3A9A0090AD34 /* FaceBook.OTF */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		3F3C57C019229C1B005D9A8B = {
 			isa = PBXGroup;
 			children = (
@@ -783,6 +795,7 @@
 		3F3C57D219229C1B005D9A8B /* iOS8 */ = {
 			isa = PBXGroup;
 			children = (
+				3F16D4C71ACC3A5C0090AD34 /* Fonts */,
 				3F3C57D319229C1B005D9A8B /* Supporting Files */,
 				3F3C5995192316EC005D9A8B /* Dependencies */,
 				3F3C58131922B903005D9A8B /* Media */,
@@ -897,6 +910,7 @@
 				3F3C581F1922F2E9005D9A8B /* Background3.png */,
 				3F3C58201922F2E9005D9A8B /* Background4.png */,
 				3F3C58211922F2E9005D9A8B /* Background5.png */,
+				3F16D4C51ACC39990090AD34 /* Background6.png */,
 			);
 			name = Background;
 			sourceTree = "<group>";
@@ -1946,6 +1960,7 @@
 				3F3C5968192314BC005D9A8B /* Twitterrific.plist in Resources */,
 				3F3C59E319232C7F005D9A8B /* photo8.jpg in Resources */,
 				3F3C593F192314BC005D9A8B /* INKMailSheet@2x~ipad.png in Resources */,
+				3F16D4C91ACC3AC00090AD34 /* FaceBook.OTF in Resources */,
 				3F3C591D192314BC005D9A8B /* Chrome.png in Resources */,
 				3F3C59DD19232C7F005D9A8B /* photo5.jpg in Resources */,
 				3F3C594B192314BC005D9A8B /* INKWebView@2x~ipad.png in Resources */,
@@ -1954,6 +1969,7 @@
 				3F3C5986192314BC005D9A8B /* iconBorder.png in Resources */,
 				3F3C5991192314BC005D9A8B /* IntentKit-Localizations.bundle in Resources */,
 				3F3C5963192314BC005D9A8B /* Twitter.plist in Resources */,
+				3F16D4C61ACC39990090AD34 /* Background6.png in Resources */,
 				3F3C5921192314BC005D9A8B /* INKBrowserHandler.plist in Resources */,
 				3F7794C41A77035100407079 /* Icon-10@2x.png in Resources */,
 				3F3C57DF19229C1B005D9A8B /* Images.xcassets in Resources */,
@@ -2256,7 +2272,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = ios;
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2278,7 +2294,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = ios;
 				PROVISIONING_PROFILE = "679DBB9F-F6CF-4523-A901-09AD5D454BE7";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

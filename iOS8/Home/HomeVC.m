@@ -57,16 +57,16 @@
     //Create the attributed string so we can uttilze multiple fonts on seperate lines
     NSMutableAttributedString* firstLine = [[NSMutableAttributedString alloc] initWithString:@"iNTERACTIVE\n"
                                                                                   attributes:@{NSFontAttributeName:
-                                                                                                   [UIFont fontWithName:@"HelveticaNeue-Thin"
+                                                                                                   [UIFont fontWithName:@"HelveticaNeue"
                                                                                                                    size:32],
                                                                                                NSForegroundColorAttributeName:
-                                                                                                   [UIColor blackColor]}];
+                                                                                                   [UIColor whiteColor]}];
     NSAttributedString* secondLine = [[NSAttributedString alloc] initWithString:@"oPEN sOURCE"
                                                                       attributes:@{NSFontAttributeName:
-                                                                                       [UIFont fontWithName:@"HelveticaNeue-LightItalic"
-                                                                                                       size:17],
+                                                                                       [UIFont fontWithName:@"FacebookLetterFaces"
+                                                                                                       size:20],
                                                                                    NSForegroundColorAttributeName:
-                                                                                       [UIColor blackColor]}];
+                                                                                       [UIColor whiteColor]}];
     [firstLine appendAttributedString:secondLine];
     [_appTitle setAttributedText:firstLine];
     
@@ -78,9 +78,10 @@
 -(void)addAppDetail{
     _appDetailTitle = [[UILabel alloc] init];
     CGFloat labelWidth = 275;
-    [_appDetailTitle setFrame:CGRectMake((SCREEN_WIDTH-labelWidth)/2, 90, labelWidth, 50)];
+    [_appDetailTitle setFrame:CGRectMake((SCREEN_WIDTH-labelWidth)/2, 110, labelWidth, 50)];
     [_appDetailTitle setText:@"A launch pad for developers to test and promote new features."];
-    [_appDetailTitle setFont:[UIFont fontWithName:@"HelveticaNeue-UltraLight" size:17]];
+    [_appDetailTitle setFont:[UIFont fontWithName:@"HelveticaNeue" size:17]];
+    [_appDetailTitle setTextColor:[UIColor whiteColor]];
     [_appDetailTitle setTextAlignment:NSTextAlignmentCenter];
     [_appDetailTitle setNumberOfLines:2];
     _appDetailTitle.alpha = 0.0;
@@ -106,7 +107,7 @@
         //Start the Backgound Transitions
         [_backgroundVC start];
         //Add the Ads (Sorry, Gotta Get Paid!)
-        _iAd = [[ETiAd alloc] initWithDisplayView:_backgroundVC.view];
+        //_iAd = [[ETiAd alloc] initWithDisplayView:_backgroundVC.view];
         
     }];
 }

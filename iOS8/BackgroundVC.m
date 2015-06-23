@@ -21,14 +21,18 @@
     if (self = [super init]) {
         self.view.backgroundColor = [UIColor whiteColor];
         _background = [[UIImageView alloc] initWithFrame:self.view.frame];
-        [_background setImage:[UIImage imageNamed:@"Background3.png"]];
+        [_background setImage:[UIImage imageNamed:@"Background.png"]];
         [_background setAlpha:0.0];
         [self.view addSubview:_background];
         
         _imageIndex = 0;
         _activeBackground = NO;
-        _imageArray = @[[UIImage imageNamed:@"Background4.png"],
-                        [UIImage imageNamed:@"Background5.png"]];
+        _imageArray = @[[UIImage imageNamed:@"Background1.png"],
+                        [UIImage imageNamed:@"Background2.png"],
+                        [UIImage imageNamed:@"Background3.png"],
+                        [UIImage imageNamed:@"Background4.png"],
+                        [UIImage imageNamed:@"Background5.png"],
+                        [UIImage imageNamed:@"Background6.png"]];
     }
     return self;
 }
@@ -51,7 +55,7 @@
 -(void)dissolveBackground{
     //Cross Dissolve into the Next Background Image
     [UIView transitionWithView:self.view
-                      duration:4.2f
+                      duration:2.7f
                        options:UIViewAnimationOptionTransitionCrossDissolve
                     animations:^{
                         _background.image = _imageArray[(_imageIndex++)%[_imageArray count]];

@@ -28,11 +28,13 @@
         _cellTitle = [[UILabel alloc] initWithFrame:CGRectMake(75, 2, 200, 30)];
         [_cellTitle setFont:[UIFont fontWithName:@"HelveticaNeue-Thin" size:25]];
         [_cellTitle setTextColor:[UIColor blackColor]];
+        _cellTitle.adjustsFontSizeToFitWidth = YES;
         [self addSubview:_cellTitle];
         
         //Detail
-        _cellDetail = [[UILabel alloc] initWithFrame:CGRectMake(75, 30, 200, 60)];
-        [_cellDetail setFont:[UIFont fontWithName:@"HelveticaNeue-Thin" size:15]];
+        CGFloat labelWidth = IS_IPAD?500:200;
+        _cellDetail = [[UILabel alloc] initWithFrame:CGRectMake(75, 30, labelWidth, 60)];
+        [_cellDetail setFont:[UIFont fontWithName:@"HelveticaNeue-Light" size:15]];
         [_cellDetail setTextColor:[UIColor darkGrayColor]];
         [_cellDetail setNumberOfLines:3];
         [self addSubview:_cellDetail];
