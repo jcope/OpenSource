@@ -10,10 +10,15 @@ We are in no way associated with Apple(c) nor do we intend to infringe on any of
 ===
 ---
 To Install Your Own Demo:
+
 1) Import your new source code as a new folder in the >ios/Demos directory. Include all resources and media that may be require. Try to be kind to the directory source tree.
+
 2) Create a class that implements the DemoApp Delegate. See comments for protocal descriptions.
+
 3) Navigate to DemoNC+Apps.m and import your DemoApp Delegate.
+
 4) Initialize and add your demo to the demoAppArray.
+
 5) Enjoy :-)
 
 ---
