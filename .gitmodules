@@ -1,15 +1,15 @@
 [submodule "iOS8/Demos/RESideMenu"]
 	path = iOS8/Demos/RESideMenu
-	url = https://github.com/romaonthego/RESideMenu.git
+	url = https://github.com/jcope/RESideMenu.git
 [submodule "iOS8/Demos/IntentKit"]
 	path = iOS8/Demos/IntentKit
-	url = https://github.com/intentkit/IntentKit.git
+	url = https://github.com/jcope/IntentKit.git
 [submodule "iOS8/Dependencies/MWLayoutHelpers"]
 	path = iOS8/Dependencies/MWLayoutHelpers
 	url = https://github.com/lazerwalker/MWLayoutHelpers.git
 [submodule "iOS8/Demos/MWPhotoBrowser"]
 	path = iOS8/Demos/MWPhotoBrowser
-	url = https://github.com/mwaterfall/MWPhotoBrowser.git
+	url = https://github.com/jcope/MWPhotoBrowser.git
 [submodule "iOS8/Demos/WatchSpringboard"]
 	path = iOS8/Demos/WatchSpringboard
-	url = https://github.com/lmmenge/WatchSpringboard-Prototype.git
+	url = https://github.com/jcope/WatchSpringboard-Prototype.git
