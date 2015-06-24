@@ -66,7 +66,7 @@
     //Apply the message data
     [cell setDemoData:demoApp];
 
-    [cell setBackgroundColor:[[UIColor whiteColor] colorWithAlphaComponent:0.75]];
+    [cell setBackgroundColor:[[UIColor whiteColor] colorWithAlphaComponent:0.85]];
     [cell.layer setCornerRadius:10];
     
     return cell;

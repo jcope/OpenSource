@@ -107,7 +107,7 @@
         //Start the Backgound Transitions
         [_backgroundVC start];
         //Add the Ads (Sorry, Gotta Get Paid!)
-        //_iAd = [[ETiAd alloc] initWithDisplayView:_backgroundVC.view];
+        _iAd = [[ETiAd alloc] initWithDisplayView:_backgroundVC.view];
         
     }];
 }
