@@ -13,6 +13,7 @@
 #import "DemoRESideMenu.h"
 #import "DemoIntent.h"
 #import "DemoMWPhotoBrowser.h"
+#import "DemoKingpin.h"
 
 @implementation DemoNC (Apps)
 
@@ -25,5 +26,6 @@
     [self.demoAppArray addObject:[[DemoRESideMenu alloc] init]];
     [self.demoAppArray addObject:[[DemoIntent alloc] init]];
     [self.demoAppArray addObject:[[DemoMWPhotoBrowser alloc] init]];
+    [self.demoAppArray addObject:[[DemoKingpin alloc] init]];
 }
 @end

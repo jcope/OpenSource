@@ -299,6 +299,17 @@
 		3FA6330D1A6F0F7E0016338D /* LMViewControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA633071A6F0F7E0016338D /* LMViewControllerView.m */; };
 		3FA633121A6F1C800016338D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA633111A6F1C800016338D /* ViewController.m */; };
 		3FA6331B1A6F1D4E0016338D /* WatchSpringboardScreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA6331A1A6F1D4E0016338D /* WatchSpringboardScreenShot.png */; };
+		3FCE83221B3A3B9800838275 /* KingpinScreenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCE83211B3A3B9800838275 /* KingpinScreenshot.png */; };
+		3FCE83251B3A3BD400838275 /* DemoKingpin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE83241B3A3BD400838275 /* DemoKingpin.m */; };
+		3FCE832C1B3A3C9500838275 /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE83271B3A3C9500838275 /* MyAnnotation.m */; };
+		3FCE832D1B3A3C9500838275 /* TestAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE83291B3A3C9500838275 /* TestAnnotation.m */; };
+		3FCE83401B3A3CE900838275 /* KPAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE83321B3A3CE900838275 /* KPAnnotation.m */; };
+		3FCE83411B3A3CE900838275 /* KPAnnotationTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE83341B3A3CE900838275 /* KPAnnotationTree.m */; };
+		3FCE83421B3A3CE900838275 /* KPClusteringController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE83381B3A3CE900838275 /* KPClusteringController.m */; };
+		3FCE83431B3A3CE900838275 /* KPGridClusteringAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE833B1B3A3CE900838275 /* KPGridClusteringAlgorithm.m */; };
+		3FCE83441B3A3CE900838275 /* NSArray+KP.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE833F1B3A3CE900838275 /* NSArray+KP.m */; };
+		3FCE83471B3A41F600838275 /* KpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCE83461B3A41F600838275 /* KpViewController.m */; };
+		3FCE834A1B3A440E00838275 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FCE83481B3A440E00838275 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -712,6 +723,32 @@
 		3FA633101A6F1C800016338D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Demos/WatchSpringboard/WatchSpringboard/ViewController.h; sourceTree = "<group>"; };
 		3FA633111A6F1C800016338D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Demos/WatchSpringboard/WatchSpringboard/ViewController.m; sourceTree = "<group>"; };
 		3FA6331A1A6F1D4E0016338D /* WatchSpringboardScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WatchSpringboardScreenShot.png; path = Demos/WatchSpringboard/WatchSpringboardScreenShot.png; sourceTree = "<group>"; };
+		3FCE83211B3A3B9800838275 /* KingpinScreenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = KingpinScreenshot.png; path = Demos/Kingpin/KingpinScreenshot.png; sourceTree = "<group>"; };
+		3FCE83231B3A3BD400838275 /* DemoKingpin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoKingpin.h; path = Demos/Kingpin/DemoKingpin.h; sourceTree = "<group>"; };
+		3FCE83241B3A3BD400838275 /* DemoKingpin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoKingpin.m; path = Demos/Kingpin/DemoKingpin.m; sourceTree = "<group>"; };
+		3FCE83261B3A3C9500838275 /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyAnnotation.h; path = Demos/Kingpin/tester/MyAnnotation.h; sourceTree = "<group>"; };
+		3FCE83271B3A3C9500838275 /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyAnnotation.m; path = Demos/Kingpin/tester/MyAnnotation.m; sourceTree = "<group>"; };
+		3FCE83281B3A3C9500838275 /* TestAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestAnnotation.h; path = Demos/Kingpin/tester/TestAnnotation.h; sourceTree = "<group>"; };
+		3FCE83291B3A3C9500838275 /* TestAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestAnnotation.m; path = Demos/Kingpin/tester/TestAnnotation.m; sourceTree = "<group>"; };
+		3FCE83301B3A3CE900838275 /* kp_2dtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kp_2dtree.h; sourceTree = "<group>"; };
+		3FCE83311B3A3CE900838275 /* KPAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAnnotation.h; sourceTree = "<group>"; };
+		3FCE83321B3A3CE900838275 /* KPAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPAnnotation.m; sourceTree = "<group>"; };
+		3FCE83331B3A3CE900838275 /* KPAnnotationTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAnnotationTree.h; sourceTree = "<group>"; };
+		3FCE83341B3A3CE900838275 /* KPAnnotationTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPAnnotationTree.m; sourceTree = "<group>"; };
+		3FCE83351B3A3CE900838275 /* KPAnnotationTree_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAnnotationTree_Private.h; sourceTree = "<group>"; };
+		3FCE83361B3A3CE900838275 /* KPClusteringAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPClusteringAlgorithm.h; sourceTree = "<group>"; };
+		3FCE83371B3A3CE900838275 /* KPClusteringController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPClusteringController.h; sourceTree = "<group>"; };
+		3FCE83381B3A3CE900838275 /* KPClusteringController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPClusteringController.m; sourceTree = "<group>"; };
+		3FCE83391B3A3CE900838275 /* KPGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPGeometry.h; sourceTree = "<group>"; };
+		3FCE833A1B3A3CE900838275 /* KPGridClusteringAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPGridClusteringAlgorithm.h; sourceTree = "<group>"; };
+		3FCE833B1B3A3CE900838275 /* KPGridClusteringAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPGridClusteringAlgorithm.m; sourceTree = "<group>"; };
+		3FCE833C1B3A3CE900838275 /* KPGridClusteringAlgorithm_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPGridClusteringAlgorithm_Private.h; sourceTree = "<group>"; };
+		3FCE833D1B3A3CE900838275 /* KPGridClusteringAlgorithmDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPGridClusteringAlgorithmDelegate.h; sourceTree = "<group>"; };
+		3FCE833E1B3A3CE900838275 /* NSArray+KP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+KP.h"; sourceTree = "<group>"; };
+		3FCE833F1B3A3CE900838275 /* NSArray+KP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+KP.m"; sourceTree = "<group>"; };
+		3FCE83451B3A41F600838275 /* KpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KpViewController.h; path = Demos/Kingpin/tester/KpViewController.h; sourceTree = "<group>"; };
+		3FCE83461B3A41F600838275 /* KpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KpViewController.m; path = Demos/Kingpin/tester/KpViewController.m; sourceTree = "<group>"; };
+		3FCE83491B3A440E00838275 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = Demos/Kingpin/tester/en.lproj/ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -865,6 +902,7 @@
 			children = (
 				3F3C58091922A2BA005D9A8B /* DemoApp.h */,
 				3F3C580B1922A372005D9A8B /* Emma */,
+				3FCE83081B3A398C00838275 /* Kingpin */,
 				3FA632F81A6F08D10016338D /* WatchSpringboard */,
 				3F3C58251922F75D005D9A8B /* RESideMenu */,
 				3F3C5852192313AC005D9A8B /* Intent */,
@@ -1745,6 +1783,64 @@
 			name = Demo;
 			sourceTree = "<group>";
 		};
+		3FCE83081B3A398C00838275 /* Kingpin */ = {
+			isa = PBXGroup;
+			children = (
+				3FCE83211B3A3B9800838275 /* KingpinScreenshot.png */,
+				3FCE83201B3A3AB500838275 /* Demo */,
+				3FCE831F1B3A3AA500838275 /* Source */,
+				3FCE83231B3A3BD400838275 /* DemoKingpin.h */,
+				3FCE83241B3A3BD400838275 /* DemoKingpin.m */,
+			);
+			name = Kingpin;
+			sourceTree = "<group>";
+		};
+		3FCE831F1B3A3AA500838275 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3FCE832F1B3A3CE900838275 /* src */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		3FCE83201B3A3AB500838275 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3FCE83481B3A440E00838275 /* ViewController.xib */,
+				3FCE83451B3A41F600838275 /* KpViewController.h */,
+				3FCE83461B3A41F600838275 /* KpViewController.m */,
+				3FCE83261B3A3C9500838275 /* MyAnnotation.h */,
+				3FCE83271B3A3C9500838275 /* MyAnnotation.m */,
+				3FCE83281B3A3C9500838275 /* TestAnnotation.h */,
+				3FCE83291B3A3C9500838275 /* TestAnnotation.m */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		3FCE832F1B3A3CE900838275 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				3FCE83301B3A3CE900838275 /* kp_2dtree.h */,
+				3FCE83311B3A3CE900838275 /* KPAnnotation.h */,
+				3FCE83321B3A3CE900838275 /* KPAnnotation.m */,
+				3FCE83331B3A3CE900838275 /* KPAnnotationTree.h */,
+				3FCE83341B3A3CE900838275 /* KPAnnotationTree.m */,
+				3FCE83351B3A3CE900838275 /* KPAnnotationTree_Private.h */,
+				3FCE83361B3A3CE900838275 /* KPClusteringAlgorithm.h */,
+				3FCE83371B3A3CE900838275 /* KPClusteringController.h */,
+				3FCE83381B3A3CE900838275 /* KPClusteringController.m */,
+				3FCE83391B3A3CE900838275 /* KPGeometry.h */,
+				3FCE833A1B3A3CE900838275 /* KPGridClusteringAlgorithm.h */,
+				3FCE833B1B3A3CE900838275 /* KPGridClusteringAlgorithm.m */,
+				3FCE833C1B3A3CE900838275 /* KPGridClusteringAlgorithm_Private.h */,
+				3FCE833D1B3A3CE900838275 /* KPGridClusteringAlgorithmDelegate.h */,
+				3FCE833E1B3A3CE900838275 /* NSArray+KP.h */,
+				3FCE833F1B3A3CE900838275 /* NSArray+KP.m */,
+			);
+			name = src;
+			path = Demos/Kingpin/src;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1932,6 +2028,7 @@
 				3F3C59E219232C7F005D9A8B /* photo7t.jpg in Resources */,
 				3FA633081A6F0F7E0016338D /* LaunchScreen.xib in Resources */,
 				3F3C59DE19232C7F005D9A8B /* photo5t.jpg in Resources */,
+				3FCE83221B3A3B9800838275 /* KingpinScreenshot.png in Resources */,
 				3F3C5954192314BC005D9A8B /* Maps.plist in Resources */,
 				3F3C593C192314BC005D9A8B /* INKMailSheet.plist in Resources */,
 				3F7794E11A77035100407079 /* Icon-5@2x.png in Resources */,
@@ -1995,6 +2092,7 @@
 				3F7794D11A77035100407079 /* Icon-22@2x.png in Resources */,
 				3F3C5965192314BC005D9A8B /* Twitter@2x.png in Resources */,
 				3F3C592E192314BC005D9A8B /* Gmail@2x.png in Resources */,
+				3FCE834A1B3A440E00838275 /* ViewController.xib in Resources */,
 				3F3C5940192314BC005D9A8B /* INKMailSheet~ipad.png in Resources */,
 				3F3C5951192314BC005D9A8B /* Mail@2x.png in Resources */,
 				3F3C58181922B90D005D9A8B /* Background1.png in Resources */,
@@ -2023,6 +2121,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCE832D1B3A3C9500838275 /* TestAnnotation.m in Sources */,
+				3FCE83431B3A3CE900838275 /* KPGridClusteringAlgorithm.m in Sources */,
 				3F3C5981192314BC005D9A8B /* INKTwitterHandler.m in Sources */,
 				3F3C5A4A19232E8C005D9A8B /* SDWebImageDownloaderOperation.m in Sources */,
 				3F3C57FD19229DCB005D9A8B /* HomeVC.m in Sources */,
@@ -2032,6 +2132,7 @@
 				3F3C597D192314BC005D9A8B /* INKFacebookHandler.m in Sources */,
 				3F5CACCF192562BC00EB7603 /* DemoNC.m in Sources */,
 				3F3C5A3119232E8C005D9A8B /* DACircularProgressView.m in Sources */,
+				3FCE83421B3A3CE900838275 /* KPClusteringController.m in Sources */,
 				3F3C597E192314BC005D9A8B /* INKGPlusHandler.m in Sources */,
 				3F3C59BD19232C64005D9A8B /* MWPhotoBrowser.m in Sources */,
 				3F3C59991923174D005D9A8B /* UIView+MWLayoutHelpers.m in Sources */,
@@ -2043,6 +2144,7 @@
 				3F5CACD91926B7A700EB7603 /* ETiAd.m in Sources */,
 				3FA632E61A6EE1CC0016338D /* UIImageView+HighlightedWebCache.m in Sources */,
 				3F3C58381922F75D005D9A8B /* DEMOLeftMenuViewController.m in Sources */,
+				3FCE83471B3A41F600838275 /* KpViewController.m in Sources */,
 				3F3C5A4B19232E8C005D9A8B /* SDWebImageManager.m in Sources */,
 				3F3C596F192314BC005D9A8B /* INKActivityCell.m in Sources */,
 				3F3C5A4319232E8C005D9A8B /* MKAnnotationView+WebCache.m in Sources */,
@@ -2066,6 +2168,7 @@
 				3F3C5A3E19232E8C005D9A8B /* PSTGridLayoutItem.m in Sources */,
 				3F3C5A3719232E8C005D9A8B /* PSTCollectionViewController.m in Sources */,
 				3F3C5A3619232E8C005D9A8B /* PSTCollectionViewCell.m in Sources */,
+				3FCE832C1B3A3C9500838275 /* MyAnnotation.m in Sources */,
 				3F3C5970192314BC005D9A8B /* INKActivityPresenter.m in Sources */,
 				3F3C586519231498005D9A8B /* INKAppDelegate.m in Sources */,
 				3F3C58051922A062005D9A8B /* DemoCell.m in Sources */,
@@ -2095,12 +2198,15 @@
 				3FA632E71A6EE1CC0016338D /* UIView+WebCacheOperation.m in Sources */,
 				3F3C5979192314BC005D9A8B /* INKLocalizedString.m in Sources */,
 				3F3C597B192314BC005D9A8B /* IntentKit.m in Sources */,
+				3FCE83401B3A3CE900838275 /* KPAnnotation.m in Sources */,
 				3F3C5A4019232E8C005D9A8B /* PSTGridLayoutSection.m in Sources */,
 				3F3C5976192314BC005D9A8B /* INKDefaultsViewController.m in Sources */,
 				3F3C59BB19232C64005D9A8B /* MWGridViewController.m in Sources */,
 				3F3C5A4C19232E8C005D9A8B /* SDWebImagePrefetcher.m in Sources */,
+				3FCE83411B3A3CE900838275 /* KPAnnotationTree.m in Sources */,
 				3F3C57D919229C1B005D9A8B /* main.m in Sources */,
 				3F3C594C192314BC005D9A8B /* INKWebViewController.m in Sources */,
+				3FCE83441B3A3CE900838275 /* NSArray+KP.m in Sources */,
 				3F3C58361922F75D005D9A8B /* DEMOAppDelegate.m in Sources */,
 				3F3C583A1922F75D005D9A8B /* DEMOSecondViewController.m in Sources */,
 				3F3C59B919232C64005D9A8B /* MWCaptionView.m in Sources */,
@@ -2116,6 +2222,7 @@
 				3F3C5A3C19232E8C005D9A8B /* PSTCollectionViewUpdateItem.m in Sources */,
 				3F3C5A4519232E8C005D9A8B /* NSData+ImageContentType.m in Sources */,
 				3F3C58391922F75D005D9A8B /* DEMORightMenuViewController.m in Sources */,
+				3FCE83251B3A3BD400838275 /* DemoKingpin.m in Sources */,
 				3F3C5941192314BC005D9A8B /* INKTweetSheet.m in Sources */,
 				3F3C584C1922F800005D9A8B /* UIViewController+RESideMenu.m in Sources */,
 			);
@@ -2178,6 +2285,14 @@
 				3FA633001A6F0F7E0016338D /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FCE83481B3A440E00838275 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FCE83491B3A440E00838275 /* en */,
+			);
+			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

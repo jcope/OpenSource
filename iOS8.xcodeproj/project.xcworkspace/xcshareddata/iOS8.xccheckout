@@ -10,6 +10,8 @@
 	<string>iOS8</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>227A578621E0FA13C4D256D39778AA4927AF08CD</key>
+		<string>https://github.com/jcope/kingpin.git</string>
 		<key>4B63EDEC36F4318C6611FC1A7F8BF6DE2C0C672B</key>
 		<string>https://github.com/jcope/iOS8.git</string>
 		<key>4D9AE519C7D7E765CA7498EFD8B3BB24ACB11215</key>
@@ -27,6 +29,8 @@
 	<string>iOS8.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>227A578621E0FA13C4D256D39778AA4927AF08CD</key>
+		<string>../../iOS8/Demos/Kingpin/</string>
 		<key>4B63EDEC36F4318C6611FC1A7F8BF6DE2C0C672B</key>
 		<string>../..</string>
 		<key>4D9AE519C7D7E765CA7498EFD8B3BB24ACB11215</key>
@@ -63,6 +67,14 @@
 			<string>4B63EDEC36F4318C6611FC1A7F8BF6DE2C0C672B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>iOS8</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>227A578621E0FA13C4D256D39778AA4927AF08CD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Kingpin</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>

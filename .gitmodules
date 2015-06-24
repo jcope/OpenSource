@@ -18,3 +18,7 @@
 	path = iOS8/Demos/WatchSpringboard
 	url = https://github.com/jcope/WatchSpringboard-Prototype.git
 	branch = master
+[submodule "iOS8/Demos/Kingpin"]
+	path = iOS8/Demos/Kingpin
+	url = https://github.com/jcope/kingpin.git
+	branch = master
