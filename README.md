@@ -8,6 +8,12 @@ This open source app was created to allow iOS developers to self-promote homebre
 We are in no way associated with Apple(c) nor do we intend to infringe on any of their legal rights.
 
 ===
+Installation
+
+Obtain the Source:
+
+  1) Git Command Line: git clone --recursive https://github.com/jcope/OpenSource.git
+
 ---
 To Install Your Own Demo:
 
