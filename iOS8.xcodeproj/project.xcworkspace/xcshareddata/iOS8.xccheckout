@@ -30,7 +30,7 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>227A578621E0FA13C4D256D39778AA4927AF08CD</key>
-		<string>../../iOS8/Demos/Kingpin/</string>
+		<string>../../iOS8/Demos/Kingpin</string>
 		<key>4B63EDEC36F4318C6611FC1A7F8BF6DE2C0C672B</key>
 		<string>../..</string>
 		<key>4D9AE519C7D7E765CA7498EFD8B3BB24ACB11215</key>
