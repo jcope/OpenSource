@@ -16,6 +16,18 @@ Obtain the Source:
   ```
   git clone --recursive https://github.com/jcope/OpenSource.git
   ```
+---
+##Modifying Demos
+
+Because I have chose to fork the Demo's into submodules, things can get complicated. After all, preserving submodules with git requires some sort of expert knowledge.
+
+Be sure to 're-attach' the submodule branchs IFF you want to make changes in a forked branch:
+
+```
+cd demos/[SUB_MODULE]
+git checkout master
+```
+
 
 ---
 ##Install Your Own Demo:
