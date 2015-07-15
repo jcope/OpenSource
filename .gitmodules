@@ -22,3 +22,6 @@
 	path = iOS8/Demos/Kingpin
 	url = https://github.com/jcope/kingpin.git
 	branch = master
+[submodule "iOS8/Demos/BAFluidView"]
+	path = iOS8/Demos/BAFluidView
+	url = https://github.com/jcope/BAFluidView.git

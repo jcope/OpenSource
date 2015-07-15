@@ -14,6 +14,7 @@
 #import "DemoIntent.h"
 #import "DemoMWPhotoBrowser.h"
 #import "DemoKingpin.h"
+#import "DemoBAFluidView.h"
 
 @implementation DemoNC (Apps)
 
@@ -23,6 +24,7 @@
     //*********** Initialize and Add Demo App Here **************//
     [self.demoAppArray addObject:[[EmmaApp alloc] init]];
     [self.demoAppArray addObject:[[DemoWatchSpringboard alloc] init]];
+    [self.demoAppArray addObject:[[DemoBAFluidView alloc] init]];
     [self.demoAppArray addObject:[[DemoRESideMenu alloc] init]];
     [self.demoAppArray addObject:[[DemoIntent alloc] init]];
     [self.demoAppArray addObject:[[DemoMWPhotoBrowser alloc] init]];
